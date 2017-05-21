@@ -163,6 +163,12 @@ public class Tester {
 
     public static void moreTests(Graph graph, String u, String v, String[] vertices, boolean isPostmanGraph)
     {
+        if (isPostmanGraph) {
+            System.out.println("POSTMAN!!!");
+            System.out.println("====================================================================");
+            System.out.println("====================================================================");
+        }
+
        for(int i = 1; i < vertices.length; ++i) {
            System.out.println("numEdges(" + vertices[i] + "," + vertices[i - 1] + ") :" + graph.numEdges(vertices[i], vertices[i - 1]));
            System.out.println("numEdges(" + vertices[i - 1] + "," + vertices[i] + ") :" + graph.numEdges(vertices[i - 1], vertices[i]));
@@ -205,5 +211,12 @@ public class Tester {
             System.out.println("getChinesePostmanRoute(" + vertices[i] + ") :" + graph.getChinesePostmanRoute(vertices[i]));
         }
         System.out.println();
+
+       if (isPostmanGraph) {
+           System.out.println("END POSTMAN!!!");
+           System.out.println("====================================================================");
+           System.out.println("====================================================================");
+           System.out.println();
+       }
     }
 }
