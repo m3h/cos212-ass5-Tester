@@ -25,6 +25,17 @@ public class Tester {
     */
     public static void main(String[] args) throws Exception {
 
+        if (args.length == 1) {
+            System.out.println("Usage: java Tester [tiny|small|full]";
+            System.out.println("tiny - only tests chinesePostmanRoute()");
+            System.out.println("small - only tests some things"));
+            System.out.println("full - tests many combinations of everything - WARNING: produces a lot of output");
+
+            System.out.println("\n\nE.g. java Tester tiny > out.txt");
+        }
+        else {
+
+        }
         String[] graphFiles = null;
         int j = -1;
         try {
@@ -112,7 +123,7 @@ public class Tester {
 
     }
 
-    public static void testGraph(String fileName, String u, String v, String[] vertices) throws Exception
+    public static void testGraphFull(String fileName, String u, String v, String[] vertices, int thoroughness) throws Exception
     {
         Graph testReconstruct = new Graph(fileName);
         if (!testReconstruct.reconstructGraph(fileName))
@@ -125,33 +136,48 @@ public class Tester {
         System.out.println("====================================================================");
         System.out.println("====================================================================");
 
-        System.out.println("numEdges(" + u + "," + "v" + graph.numEdges(u, v));
+        if (thoroughness == 1 || thoroughness == 2) {
+            System.out.println("numEdges(" + u + "," + "v" + graph.numEdges(u, v));
 
 
+            boolean full = true;
+            if (thoroughness == 1)
+                full == false;
 
-        String one = "Horses";
-        String two = "Bananas";
-        System.out.println("changeLabel(" + one + "," + two + ") :" + graph.changeLabel(one, two));
-        moreTests(graph, u, v, vertices, false);
-        System.out.println("Reconstruct graph to same: " + graph.reconstructGraph(fileName));
-        System.out.println("changeLabel(" + v + "," + one + ") :" + graph.changeLabel(v, one));
-        moreTests(graph, u, v, vertices, false);
-        System.out.println("Reconstruct graph to same: " + graph.reconstructGraph(fileName));
-        System.out.println("changeLabel(" + two + "," + v + ") :" + graph.changeLabel(two, v));
-        moreTests(graph, u, v, vertices, false);
-        System.out.println("Reconstruct graph to same: " + graph.reconstructGraph(fileName));
-        System.out.println("changeLabel(" + v + "," + u + ") :" + graph.changeLabel(v, u));
-        moreTests(graph, u, v, vertices, false);
 
-        System.out.println("clone() and test:");
-        Graph clone = graph.clone();
-        moreTests(clone, u, v, vertices, false);
-        System.out.println();
+            String one = "Horses";
+            String two = "Bananas";
+            System.out.println("changeLabel(" + one + "," + two + ") :" + graph.changeLabel(one, two));
+            moreTests(graph, u, v, vertices, false, full);
+            System.out.println("Reconstruct graph to same: " + graph.reconstructGraph(fileName));
+            System.out.println("changeLabel(" + v + "," + one + ") :" + graph.changeLabel(v, one));
 
-        System.out.println("clone.changeLabel(" + v + "," + u + ") :" + clone.changeLabel(v, u));
-        moreTests(clone, u, v, vertices, false);
-        moreTests(graph, u, v, vertices, false);
+            moreTests(graph, u, v, vertices, false, full);
 
+            if (thoroughness == 2) {
+                System.out.println("Reconstruct graph to same: " + graph.reconstructGraph(fileName));
+                System.out.println("changeLabel(" + two + "," + v + ") :" + graph.changeLabel(two, v));
+                moreTests(graph, u, v, vertices, false);
+                System.out.println("Reconstruct graph to same: " + graph.reconstructGraph(fileName));
+                System.out.println("changeLabel(" + v + "," + u + ") :" + graph.changeLabel(v, u));
+                moreTests(graph, u, v, vertices, false);
+
+                System.out.println("clone() and test:");
+                Graph clone = graph.clone();
+                moreTests(clone, u, v, vertices, false);
+                System.out.println();
+
+                System.out.println("clone.changeLabel(" + v + "," + u + ") :" + clone.changeLabel(v, u));
+                moreTests(clone, u, v, vertices, false);
+                moreTests(graph, u, v, vertices, false);
+
+            }
+        }
+        else {
+            for(int i = 0; i < vertices.length; ++i) {
+                System.out.prinln("chinesePostmanRoute(" + vertices[i] + "):\t" + graph.getChinesePostmanGraph().getChinesePostmanRoute(vertices[i]));
+            }
+        }
 
         System.out.println("====================================================================");
         System.out.println("====================================================================");
@@ -162,6 +188,11 @@ public class Tester {
     }
 
     public static void moreTests(Graph graph, String u, String v, String[] vertices, boolean isPostmanGraph)
+    {
+        moreTests(graph, u, v, vertices, isPostmanGraph, true);
+    }
+
+    public static void moreTests(Graph graph, String u, String v, String[] vertices, boolean isPostmanGraph, boolean full)
     {
         if (isPostmanGraph) {
             System.out.println("POSTMAN!!!");
@@ -181,18 +212,19 @@ public class Tester {
            System.out.println();
        }
 
-       for(int i = 0; i < vertices.length; ++i) {
-            for(int j = 0; j < vertices.length; ++j) {
-                System.out.println("numEdges(" + vertices[i] + "," + vertices[j] + ") :\t" + graph.numEdges(vertices[i], vertices[j]));
-            }
+       if (full == true) {
+           for (int i = 0; i < vertices.length; ++i) {
+               for (int j = 0; j < vertices.length; ++j) {
+                   System.out.println("numEdges(" + vertices[i] + "," + vertices[j] + ") :\t" + graph.numEdges(vertices[i], vertices[j]));
+               }
+           }
+
+           for (int i = 0; i < vertices.length; ++i) {
+               for (int j = 0; j < vertices.length; ++j) {
+                   System.out.println("getPath(" + vertices[i] + "," + vertices[j] + ") :\t" + graph.getPath(vertices[i], vertices[j]));
+               }
+           }
        }
-
-        for(int i = 0; i < vertices.length; ++i) {
-            for(int j = 0; j < vertices.length; ++j) {
-                System.out.println("getPath(" + vertices[i] + "," + vertices[j] + ") :\t" + graph.getPath(vertices[i], vertices[j]));
-            }
-        }
-
        for(int i = 0; i < vertices.length; ++i) {
            System.out.println("getDegree(" + vertices[i] + ") :\t" + graph.getDegree(vertices[i]));
        }
@@ -209,16 +241,16 @@ public class Tester {
        System.out.println("getChinesePostmanCost() " + graph.getChinesePostmanCost());
        System.out.println();
 
-       if (isPostmanGraph == false) {
-           System.out.println("This isn't chinese postman graph, generate one and test it");
-           System.out.println("getChinesePostmanGraph() == moreTests");
-           moreTests(graph.getChinesePostmanGraph(), u, v, vertices, true);
+       if (full == true) {
+           if (isPostmanGraph == false) {
+               System.out.println("This isn't chinese postman graph, generate one and test it");
+               System.out.println("getChinesePostmanGraph() == moreTests");
+               moreTests(graph.getChinesePostmanGraph(), u, v, vertices, true);
 
+           } else {
+               System.out.println("This already is chinese postman - don't generate again. ");
+           }
        }
-       else {
-           System.out.println("This already is chinese postman - don't generate again. ");
-       }
-
         for(int i = 0; i < vertices.length; ++i) {
             System.out.println("getChinesePostmanRoute(" + vertices[i] + ") :\t" + graph.getChinesePostmanRoute(vertices[i]));
         }
