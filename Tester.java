@@ -123,7 +123,7 @@ public class Tester {
 
     }
 
-    public static void testGraphFull(String fileName, String u, String v, String[] vertices, int thoroughness) throws Exception
+    public static void testGraph(String fileName, String u, String v, String[] vertices, int thoroughness) throws Exception
     {
         Graph testReconstruct = new Graph(fileName);
         if (!testReconstruct.reconstructGraph(fileName))
