@@ -1,0 +1,2062 @@
+TESTING ./files/graph.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(C,v1
+changeLabel(Horses,Bananas) :false
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+numEdges(C,B) :	1
+numEdges(B,C) :	1
+
+numEdges(D,C) :	1
+numEdges(C,D) :	1
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getPath(C,B) :	C,A,B
+getPath(B,C) :	B,A,C
+
+getPath(D,C) :	D,C
+getPath(C,D) :	C,D
+
+getDegree(A) :	3
+getDegree(B) :	3
+getDegree(C) :	3
+getDegree(D) :	3
+
+depthFirstTraversal(A) :	A,B,C,D
+depthFirstTraversal(B) :	B,A,C,D
+depthFirstTraversal(C) :	C,A,B,D
+depthFirstTraversal(D) :	D,A,B,C
+
+getOdd() A,B,C,D
+
+getChinesePostmanCost() 26
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(D) :	not available
+
+Reconstruct graph to same: true
+changeLabel(A,Horses) :true
+numEdges(B,A) :	0
+numEdges(A,B) :	0
+
+numEdges(C,B) :	1
+numEdges(B,C) :	1
+
+numEdges(D,C) :	1
+numEdges(C,D) :	1
+
+getPath(B,A) :	
+getPath(A,B) :	
+
+getPath(C,B) :	C,Horses,B
+getPath(B,C) :	B,Horses,C
+
+getPath(D,C) :	D,C
+getPath(C,D) :	C,D
+
+getDegree(A) :	0
+getDegree(B) :	3
+getDegree(C) :	3
+getDegree(D) :	3
+
+depthFirstTraversal(A) :	
+depthFirstTraversal(B) :	B,C,D,Horses
+depthFirstTraversal(C) :	C,B,D,Horses
+depthFirstTraversal(D) :	D,B,C,Horses
+
+getOdd() B,C,D,Horses
+
+getChinesePostmanCost() 26
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(D) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/graph2.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(A,v1
+changeLabel(Horses,Bananas) :false
+numEdges(D,C) :	1
+numEdges(C,D) :	1
+
+numEdges(A,D) :	1
+numEdges(D,A) :	1
+
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+getPath(D,C) :	D,C
+getPath(C,D) :	C,D
+
+getPath(A,D) :	A,D
+getPath(D,A) :	D,A
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getDegree(C) :	3
+getDegree(D) :	3
+getDegree(A) :	3
+getDegree(B) :	3
+
+depthFirstTraversal(C) :	C,A,B,D
+depthFirstTraversal(D) :	D,A,B,C
+depthFirstTraversal(A) :	A,B,C,D
+depthFirstTraversal(B) :	B,A,C,D
+
+getOdd() A,B,C,D
+
+getChinesePostmanCost() 26
+
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(D) :	not available
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+
+Reconstruct graph to same: true
+changeLabel(C,Horses) :true
+numEdges(D,C) :	0
+numEdges(C,D) :	0
+
+numEdges(A,D) :	1
+numEdges(D,A) :	1
+
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+getPath(D,C) :	
+getPath(C,D) :	
+
+getPath(A,D) :	A,D
+getPath(D,A) :	D,A
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getDegree(C) :	0
+getDegree(D) :	3
+getDegree(A) :	3
+getDegree(B) :	3
+
+depthFirstTraversal(C) :	
+depthFirstTraversal(D) :	D,A,B,Horses
+depthFirstTraversal(A) :	A,B,D,Horses
+depthFirstTraversal(B) :	B,A,D,Horses
+
+getOdd() A,B,D,Horses
+
+getChinesePostmanCost() 26
+
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(D) :	not available
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/moh.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(CHICKEN,v1
+changeLabel(Horses,Bananas) :false
+numEdges(VANILLA,POP) :	1
+numEdges(POP,VANILLA) :	1
+
+numEdges(CHICKEN,VANILLA) :	0
+numEdges(VANILLA,CHICKEN) :	0
+
+numEdges(NUT,CHICKEN) :	1
+numEdges(CHICKEN,NUT) :	1
+
+numEdges(RICE,NUT) :	0
+numEdges(NUT,RICE) :	0
+
+numEdges(RUN,RICE) :	0
+numEdges(RICE,RUN) :	0
+
+numEdges(FREE,RUN) :	1
+numEdges(RUN,FREE) :	1
+
+numEdges(ROTI,FREE) :	0
+numEdges(FREE,ROTI) :	0
+
+numEdges(SAMOOSA,ROTI) :	1
+numEdges(ROTI,SAMOOSA) :	1
+
+numEdges(HOT,SAMOOSA) :	1
+numEdges(SAMOOSA,HOT) :	1
+
+numEdges(RAMEN,HOT) :	1
+numEdges(HOT,RAMEN) :	1
+
+numEdges(PIZZA,RAMEN) :	0
+numEdges(RAMEN,PIZZA) :	0
+
+numEdges(APPLE,PIZZA) :	1
+numEdges(PIZZA,APPLE) :	1
+
+numEdges(NUGGET,APPLE) :	1
+numEdges(APPLE,NUGGET) :	1
+
+getPath(VANILLA,POP) :	VANILLA,POP
+getPath(POP,VANILLA) :	POP,VANILLA
+
+getPath(CHICKEN,VANILLA) :	CHICKEN,POP,VANILLA
+getPath(VANILLA,CHICKEN) :	VANILLA,POP,CHICKEN
+
+getPath(NUT,CHICKEN) :	NUT,CHICKEN
+getPath(CHICKEN,NUT) :	CHICKEN,NUT
+
+getPath(RICE,NUT) :	RICE,CHICKEN,NUT
+getPath(NUT,RICE) :	NUT,CHICKEN,RICE
+
+getPath(RUN,RICE) :	RUN,ROTI,RICE
+getPath(RICE,RUN) :	RICE,ROTI,RUN
+
+getPath(FREE,RUN) :	FREE,RUN
+getPath(RUN,FREE) :	RUN,FREE
+
+getPath(ROTI,FREE) :	ROTI,RUN,FREE
+getPath(FREE,ROTI) :	FREE,RUN,ROTI
+
+getPath(SAMOOSA,ROTI) :	SAMOOSA,ROTI
+getPath(ROTI,SAMOOSA) :	ROTI,SAMOOSA
+
+getPath(HOT,SAMOOSA) :	HOT,SAMOOSA
+getPath(SAMOOSA,HOT) :	SAMOOSA,HOT
+
+getPath(RAMEN,HOT) :	RAMEN,HOT
+getPath(HOT,RAMEN) :	HOT,RAMEN
+
+getPath(PIZZA,RAMEN) :	PIZZA,HOT,RAMEN
+getPath(RAMEN,PIZZA) :	RAMEN,HOT,PIZZA
+
+getPath(APPLE,PIZZA) :	APPLE,PIZZA
+getPath(PIZZA,APPLE) :	PIZZA,APPLE
+
+getPath(NUGGET,APPLE) :	NUGGET,APPLE
+getPath(APPLE,NUGGET) :	APPLE,NUGGET
+
+getDegree(POP) :	2
+getDegree(VANILLA) :	4
+getDegree(CHICKEN) :	3
+getDegree(NUT) :	2
+getDegree(RICE) :	3
+getDegree(RUN) :	4
+getDegree(FREE) :	1
+getDegree(ROTI) :	3
+getDegree(SAMOOSA) :	3
+getDegree(HOT) :	3
+getDegree(RAMEN) :	1
+getDegree(PIZZA) :	3
+getDegree(APPLE) :	2
+getDegree(NUGGET) :	2
+
+depthFirstTraversal(POP) :	POP,CHICKEN,NUT,VANILLA,RICE,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(VANILLA) :	VANILLA,NUT,CHICKEN,POP,RICE,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(CHICKEN) :	CHICKEN,NUT,VANILLA,POP,RICE,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(NUT) :	NUT,CHICKEN,POP,VANILLA,RICE,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(RICE) :	RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE,ROTI,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(RUN) :	RUN,FREE,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(FREE) :	FREE,RUN,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(ROTI) :	ROTI,RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(SAMOOSA) :	SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(HOT) :	HOT,PIZZA,APPLE,NUGGET,RAMEN,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(RAMEN) :	RAMEN,HOT,PIZZA,APPLE,NUGGET,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(PIZZA) :	PIZZA,APPLE,NUGGET,HOT,RAMEN,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(APPLE) :	APPLE,NUGGET,PIZZA,HOT,RAMEN,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(NUGGET) :	NUGGET,APPLE,PIZZA,HOT,RAMEN,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+
+getOdd() CHICKEN,FREE,HOT,PIZZA,RAMEN,RICE,ROTI,SAMOOSA
+
+getChinesePostmanCost() 89
+
+getChinesePostmanRoute(POP) :	not available
+getChinesePostmanRoute(VANILLA) :	not available
+getChinesePostmanRoute(CHICKEN) :	not available
+getChinesePostmanRoute(NUT) :	not available
+getChinesePostmanRoute(RICE) :	not available
+getChinesePostmanRoute(RUN) :	not available
+getChinesePostmanRoute(FREE) :	not available
+getChinesePostmanRoute(ROTI) :	not available
+getChinesePostmanRoute(SAMOOSA) :	not available
+getChinesePostmanRoute(HOT) :	not available
+getChinesePostmanRoute(RAMEN) :	not available
+getChinesePostmanRoute(PIZZA) :	not available
+getChinesePostmanRoute(APPLE) :	not available
+getChinesePostmanRoute(NUGGET) :	not available
+
+Reconstruct graph to same: true
+changeLabel(RICE,Horses) :true
+numEdges(VANILLA,POP) :	1
+numEdges(POP,VANILLA) :	1
+
+numEdges(CHICKEN,VANILLA) :	0
+numEdges(VANILLA,CHICKEN) :	0
+
+numEdges(NUT,CHICKEN) :	1
+numEdges(CHICKEN,NUT) :	1
+
+numEdges(RICE,NUT) :	0
+numEdges(NUT,RICE) :	0
+
+numEdges(RUN,RICE) :	0
+numEdges(RICE,RUN) :	0
+
+numEdges(FREE,RUN) :	1
+numEdges(RUN,FREE) :	1
+
+numEdges(ROTI,FREE) :	0
+numEdges(FREE,ROTI) :	0
+
+numEdges(SAMOOSA,ROTI) :	1
+numEdges(ROTI,SAMOOSA) :	1
+
+numEdges(HOT,SAMOOSA) :	1
+numEdges(SAMOOSA,HOT) :	1
+
+numEdges(RAMEN,HOT) :	1
+numEdges(HOT,RAMEN) :	1
+
+numEdges(PIZZA,RAMEN) :	0
+numEdges(RAMEN,PIZZA) :	0
+
+numEdges(APPLE,PIZZA) :	1
+numEdges(PIZZA,APPLE) :	1
+
+numEdges(NUGGET,APPLE) :	1
+numEdges(APPLE,NUGGET) :	1
+
+getPath(VANILLA,POP) :	VANILLA,POP
+getPath(POP,VANILLA) :	POP,VANILLA
+
+getPath(CHICKEN,VANILLA) :	CHICKEN,POP,VANILLA
+getPath(VANILLA,CHICKEN) :	VANILLA,POP,CHICKEN
+
+getPath(NUT,CHICKEN) :	NUT,CHICKEN
+getPath(CHICKEN,NUT) :	CHICKEN,NUT
+
+getPath(RICE,NUT) :	
+getPath(NUT,RICE) :	
+
+getPath(RUN,RICE) :	
+getPath(RICE,RUN) :	
+
+getPath(FREE,RUN) :	FREE,RUN
+getPath(RUN,FREE) :	RUN,FREE
+
+getPath(ROTI,FREE) :	ROTI,RUN,FREE
+getPath(FREE,ROTI) :	FREE,RUN,ROTI
+
+getPath(SAMOOSA,ROTI) :	SAMOOSA,ROTI
+getPath(ROTI,SAMOOSA) :	ROTI,SAMOOSA
+
+getPath(HOT,SAMOOSA) :	HOT,SAMOOSA
+getPath(SAMOOSA,HOT) :	SAMOOSA,HOT
+
+getPath(RAMEN,HOT) :	RAMEN,HOT
+getPath(HOT,RAMEN) :	HOT,RAMEN
+
+getPath(PIZZA,RAMEN) :	PIZZA,HOT,RAMEN
+getPath(RAMEN,PIZZA) :	RAMEN,HOT,PIZZA
+
+getPath(APPLE,PIZZA) :	APPLE,PIZZA
+getPath(PIZZA,APPLE) :	PIZZA,APPLE
+
+getPath(NUGGET,APPLE) :	NUGGET,APPLE
+getPath(APPLE,NUGGET) :	APPLE,NUGGET
+
+getDegree(POP) :	2
+getDegree(VANILLA) :	4
+getDegree(CHICKEN) :	3
+getDegree(NUT) :	2
+getDegree(RICE) :	0
+getDegree(RUN) :	4
+getDegree(FREE) :	1
+getDegree(ROTI) :	3
+getDegree(SAMOOSA) :	3
+getDegree(HOT) :	3
+getDegree(RAMEN) :	1
+getDegree(PIZZA) :	3
+getDegree(APPLE) :	2
+getDegree(NUGGET) :	2
+
+depthFirstTraversal(POP) :	POP,CHICKEN,Horses,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN,VANILLA,NUT
+depthFirstTraversal(VANILLA) :	VANILLA,Horses,CHICKEN,NUT,POP,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(CHICKEN) :	CHICKEN,Horses,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN,VANILLA,NUT,POP
+depthFirstTraversal(NUT) :	NUT,CHICKEN,Horses,ROTI,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN,VANILLA,POP
+depthFirstTraversal(RICE) :	
+depthFirstTraversal(RUN) :	RUN,FREE,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(FREE) :	FREE,RUN,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(ROTI) :	ROTI,Horses,CHICKEN,NUT,VANILLA,POP,RUN,FREE,SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN
+depthFirstTraversal(SAMOOSA) :	SAMOOSA,HOT,PIZZA,APPLE,NUGGET,RAMEN,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(HOT) :	HOT,PIZZA,APPLE,NUGGET,RAMEN,SAMOOSA,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(RAMEN) :	RAMEN,HOT,PIZZA,APPLE,NUGGET,SAMOOSA,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(PIZZA) :	PIZZA,APPLE,NUGGET,HOT,RAMEN,SAMOOSA,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(APPLE) :	APPLE,NUGGET,PIZZA,HOT,RAMEN,SAMOOSA,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+depthFirstTraversal(NUGGET) :	NUGGET,APPLE,PIZZA,HOT,RAMEN,SAMOOSA,ROTI,Horses,CHICKEN,NUT,VANILLA,POP,RUN,FREE
+
+getOdd() CHICKEN,FREE,HOT,Horses,PIZZA,RAMEN,ROTI,SAMOOSA
+
+getChinesePostmanCost() 89
+
+getChinesePostmanRoute(POP) :	not available
+getChinesePostmanRoute(VANILLA) :	not available
+getChinesePostmanRoute(CHICKEN) :	not available
+getChinesePostmanRoute(NUT) :	not available
+getChinesePostmanRoute(RICE) :	not available
+getChinesePostmanRoute(RUN) :	not available
+getChinesePostmanRoute(FREE) :	not available
+getChinesePostmanRoute(ROTI) :	not available
+getChinesePostmanRoute(SAMOOSA) :	not available
+getChinesePostmanRoute(HOT) :	not available
+getChinesePostmanRoute(RAMEN) :	not available
+getChinesePostmanRoute(PIZZA) :	not available
+getChinesePostmanRoute(APPLE) :	not available
+getChinesePostmanRoute(NUGGET) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/m3h.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(1,v1
+changeLabel(Horses,Bananas) :false
+numEdges(2,0) :	1
+numEdges(0,2) :	1
+
+numEdges(1,2) :	1
+numEdges(2,1) :	1
+
+numEdges(3,1) :	1
+numEdges(1,3) :	1
+
+numEdges(5,3) :	0
+numEdges(3,5) :	0
+
+numEdges(6,5) :	0
+numEdges(5,6) :	0
+
+numEdges(4,6) :	1
+numEdges(6,4) :	1
+
+numEdges(7,4) :	1
+numEdges(4,7) :	1
+
+getPath(2,0) :	2,0
+getPath(0,2) :	0,2
+
+getPath(1,2) :	1,2
+getPath(2,1) :	2,1
+
+getPath(3,1) :	3,1
+getPath(1,3) :	1,3
+
+getPath(5,3) :	5,1,3
+getPath(3,5) :	3,1,5
+
+getPath(6,5) :	6,1,5
+getPath(5,6) :	5,1,6
+
+getPath(4,6) :	4,6
+getPath(6,4) :	6,4
+
+getPath(7,4) :	7,4
+getPath(4,7) :	4,7
+
+getDegree(0) :	3
+getDegree(2) :	2
+getDegree(1) :	5
+getDegree(3) :	2
+getDegree(5) :	1
+getDegree(6) :	2
+getDegree(4) :	2
+getDegree(7) :	1
+
+depthFirstTraversal(0) :	0,1,2,3,5,6,4,7
+depthFirstTraversal(2) :	2,0,1,3,5,6,4,7
+depthFirstTraversal(1) :	1,0,2,3,5,6,4,7
+depthFirstTraversal(3) :	3,0,1,2,5,6,4,7
+depthFirstTraversal(5) :	5,1,0,2,3,6,4,7
+depthFirstTraversal(6) :	6,1,0,2,3,5,4,7
+depthFirstTraversal(4) :	4,6,1,0,2,3,5,7
+depthFirstTraversal(7) :	7,4,6,1,0,2,3,5
+
+getOdd() 0,1,5,7
+
+getChinesePostmanCost() 14
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(6) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(7) :	not available
+
+Reconstruct graph to same: true
+changeLabel(5,Horses) :true
+numEdges(2,0) :	1
+numEdges(0,2) :	1
+
+numEdges(1,2) :	1
+numEdges(2,1) :	1
+
+numEdges(3,1) :	1
+numEdges(1,3) :	1
+
+numEdges(5,3) :	0
+numEdges(3,5) :	0
+
+numEdges(6,5) :	0
+numEdges(5,6) :	0
+
+numEdges(4,6) :	1
+numEdges(6,4) :	1
+
+numEdges(7,4) :	1
+numEdges(4,7) :	1
+
+getPath(2,0) :	2,0
+getPath(0,2) :	0,2
+
+getPath(1,2) :	1,2
+getPath(2,1) :	2,1
+
+getPath(3,1) :	3,1
+getPath(1,3) :	1,3
+
+getPath(5,3) :	
+getPath(3,5) :	
+
+getPath(6,5) :	
+getPath(5,6) :	
+
+getPath(4,6) :	4,6
+getPath(6,4) :	6,4
+
+getPath(7,4) :	7,4
+getPath(4,7) :	4,7
+
+getDegree(0) :	3
+getDegree(2) :	2
+getDegree(1) :	5
+getDegree(3) :	2
+getDegree(5) :	0
+getDegree(6) :	2
+getDegree(4) :	2
+getDegree(7) :	1
+
+depthFirstTraversal(0) :	0,1,2,3,6,4,7,Horses
+depthFirstTraversal(2) :	2,0,1,3,6,4,7,Horses
+depthFirstTraversal(1) :	1,0,2,3,6,4,7,Horses
+depthFirstTraversal(3) :	3,0,1,2,6,4,7,Horses
+depthFirstTraversal(5) :	
+depthFirstTraversal(6) :	6,1,0,2,3,Horses,4,7
+depthFirstTraversal(4) :	4,6,1,0,2,3,Horses,7
+depthFirstTraversal(7) :	7,4,6,1,0,2,3,Horses
+
+getOdd() 0,1,7,Horses
+
+getChinesePostmanCost() 14
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(6) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(7) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/m3h1.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(4,v1
+changeLabel(Horses,Bananas) :false
+numEdges(2,0) :	1
+numEdges(0,2) :	1
+
+numEdges(4,2) :	0
+numEdges(2,4) :	0
+
+numEdges(14,4) :	0
+numEdges(4,14) :	0
+
+numEdges(1,14) :	0
+numEdges(14,1) :	0
+
+numEdges(5,1) :	1
+numEdges(1,5) :	1
+
+numEdges(3,5) :	0
+numEdges(5,3) :	0
+
+numEdges(6,3) :	0
+numEdges(3,6) :	0
+
+numEdges(10,6) :	1
+numEdges(6,10) :	1
+
+numEdges(7,10) :	0
+numEdges(10,7) :	0
+
+numEdges(8,7) :	0
+numEdges(7,8) :	0
+
+numEdges(11,8) :	1
+numEdges(8,11) :	1
+
+numEdges(9,11) :	0
+numEdges(11,9) :	0
+
+numEdges(12,9) :	1
+numEdges(9,12) :	1
+
+numEdges(13,12) :	1
+numEdges(12,13) :	1
+
+numEdges(15,13) :	0
+numEdges(13,15) :	0
+
+numEdges(17,15) :	1
+numEdges(15,17) :	1
+
+numEdges(16,17) :	1
+numEdges(17,16) :	1
+
+getPath(2,0) :	2,0
+getPath(0,2) :	0,2
+
+getPath(4,2) :	4,0,2
+getPath(2,4) :	2,0,4
+
+getPath(14,4) :	14,0,4
+getPath(4,14) :	4,0,14
+
+getPath(1,14) :	1,2,0,14
+getPath(14,1) :	14,0,2,1
+
+getPath(5,1) :	5,1
+getPath(1,5) :	1,5
+
+getPath(3,5) :	3,10,6,5
+getPath(5,3) :	5,6,10,3
+
+getPath(6,3) :	6,10,3
+getPath(3,6) :	3,10,6
+
+getPath(10,6) :	10,6
+getPath(6,10) :	6,10
+
+getPath(7,10) :	7,4,0,2,3,10
+getPath(10,7) :	10,3,2,0,4,7
+
+getPath(8,7) :	8,11,7
+getPath(7,8) :	7,11,8
+
+getPath(11,8) :	11,8
+getPath(8,11) :	8,11
+
+getPath(9,11) :	9,12,8,11
+getPath(11,9) :	11,8,12,9
+
+getPath(12,9) :	12,9
+getPath(9,12) :	9,12
+
+getPath(13,12) :	13,12
+getPath(12,13) :	12,13
+
+getPath(15,13) :	15,17,13
+getPath(13,15) :	13,17,15
+
+getPath(17,15) :	17,15
+getPath(15,17) :	15,17
+
+getPath(16,17) :	16,17
+getPath(17,16) :	17,16
+
+getDegree(0) :	3
+getDegree(2) :	5
+getDegree(4) :	4
+getDegree(14) :	4
+getDegree(1) :	3
+getDegree(5) :	5
+getDegree(3) :	2
+getDegree(6) :	3
+getDegree(10) :	2
+getDegree(7) :	3
+getDegree(8) :	4
+getDegree(11) :	3
+getDegree(9) :	2
+getDegree(12) :	4
+getDegree(13) :	2
+getDegree(15) :	4
+getDegree(17) :	3
+getDegree(16) :	2
+
+depthFirstTraversal(0) :	0,14,11,7,4,1,2,3,10,6,5,8,12,13,17,15,16,9
+depthFirstTraversal(2) :	2,0,14,11,7,4,1,5,6,10,3,8,12,13,17,15,16,9
+depthFirstTraversal(4) :	4,0,14,11,7,8,12,13,17,15,16,9,5,1,2,3,10,6
+depthFirstTraversal(14) :	14,0,2,1,4,5,6,10,3,8,11,7,12,13,17,15,16,9
+depthFirstTraversal(1) :	1,2,0,14,11,7,4,5,6,10,3,8,12,13,17,15,16,9
+depthFirstTraversal(5) :	5,1,2,0,14,11,7,4,8,12,13,17,15,16,9,3,10,6
+depthFirstTraversal(3) :	3,10,6,2,0,14,11,7,4,1,5,8,12,13,17,15,16,9
+depthFirstTraversal(6) :	6,10,3,2,0,14,11,7,4,1,5,8,12,13,17,15,16,9
+depthFirstTraversal(10) :	10,3,2,0,14,11,7,4,1,5,6,8,12,13,17,15,16,9
+depthFirstTraversal(7) :	7,11,14,0,2,1,4,5,6,10,3,8,12,13,17,15,16,9
+depthFirstTraversal(8) :	8,11,14,0,2,1,4,5,6,10,3,7,15,12,13,17,16,9
+depthFirstTraversal(11) :	11,14,0,2,1,4,5,6,10,3,8,12,13,17,15,16,9,7
+depthFirstTraversal(9) :	9,12,13,17,15,14,0,2,1,4,5,6,10,3,8,11,7,16
+depthFirstTraversal(12) :	12,13,17,15,14,0,2,1,4,5,6,10,3,8,11,7,9,16
+depthFirstTraversal(13) :	13,12,15,14,0,2,1,4,5,6,10,3,8,11,7,9,16,17
+depthFirstTraversal(15) :	15,12,13,17,16,8,11,14,0,2,1,4,5,6,10,3,7,9
+depthFirstTraversal(17) :	17,13,12,15,14,0,2,1,4,5,6,10,3,8,11,7,9,16
+depthFirstTraversal(16) :	16,15,12,13,17,8,11,14,0,2,1,4,5,6,10,3,7,9
+
+getOdd() 0,1,11,17,2,5,6,7
+
+getChinesePostmanCost() 166
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(14) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(6) :	not available
+getChinesePostmanRoute(10) :	not available
+getChinesePostmanRoute(7) :	not available
+getChinesePostmanRoute(8) :	not available
+getChinesePostmanRoute(11) :	not available
+getChinesePostmanRoute(9) :	not available
+getChinesePostmanRoute(12) :	not available
+getChinesePostmanRoute(13) :	not available
+getChinesePostmanRoute(15) :	not available
+getChinesePostmanRoute(17) :	not available
+getChinesePostmanRoute(16) :	not available
+
+Reconstruct graph to same: true
+changeLabel(1,Horses) :true
+numEdges(2,0) :	1
+numEdges(0,2) :	1
+
+numEdges(4,2) :	0
+numEdges(2,4) :	0
+
+numEdges(14,4) :	0
+numEdges(4,14) :	0
+
+numEdges(1,14) :	0
+numEdges(14,1) :	0
+
+numEdges(5,1) :	0
+numEdges(1,5) :	0
+
+numEdges(3,5) :	0
+numEdges(5,3) :	0
+
+numEdges(6,3) :	0
+numEdges(3,6) :	0
+
+numEdges(10,6) :	1
+numEdges(6,10) :	1
+
+numEdges(7,10) :	0
+numEdges(10,7) :	0
+
+numEdges(8,7) :	0
+numEdges(7,8) :	0
+
+numEdges(11,8) :	1
+numEdges(8,11) :	1
+
+numEdges(9,11) :	0
+numEdges(11,9) :	0
+
+numEdges(12,9) :	1
+numEdges(9,12) :	1
+
+numEdges(13,12) :	1
+numEdges(12,13) :	1
+
+numEdges(15,13) :	0
+numEdges(13,15) :	0
+
+numEdges(17,15) :	1
+numEdges(15,17) :	1
+
+numEdges(16,17) :	1
+numEdges(17,16) :	1
+
+getPath(2,0) :	2,0
+getPath(0,2) :	0,2
+
+getPath(4,2) :	4,0,2
+getPath(2,4) :	2,0,4
+
+getPath(14,4) :	14,0,4
+getPath(4,14) :	4,0,14
+
+getPath(1,14) :	
+getPath(14,1) :	
+
+getPath(5,1) :	
+getPath(1,5) :	
+
+getPath(3,5) :	3,10,6,5
+getPath(5,3) :	5,6,10,3
+
+getPath(6,3) :	6,10,3
+getPath(3,6) :	3,10,6
+
+getPath(10,6) :	10,6
+getPath(6,10) :	6,10
+
+getPath(7,10) :	7,4,0,2,3,10
+getPath(10,7) :	10,3,2,0,4,7
+
+getPath(8,7) :	8,11,7
+getPath(7,8) :	7,11,8
+
+getPath(11,8) :	11,8
+getPath(8,11) :	8,11
+
+getPath(9,11) :	9,12,8,11
+getPath(11,9) :	11,8,12,9
+
+getPath(12,9) :	12,9
+getPath(9,12) :	9,12
+
+getPath(13,12) :	13,12
+getPath(12,13) :	12,13
+
+getPath(15,13) :	15,17,13
+getPath(13,15) :	13,17,15
+
+getPath(17,15) :	17,15
+getPath(15,17) :	15,17
+
+getPath(16,17) :	16,17
+getPath(17,16) :	17,16
+
+getDegree(0) :	3
+getDegree(2) :	5
+getDegree(4) :	4
+getDegree(14) :	4
+getDegree(1) :	0
+getDegree(5) :	5
+getDegree(3) :	2
+getDegree(6) :	3
+getDegree(10) :	2
+getDegree(7) :	3
+getDegree(8) :	4
+getDegree(11) :	3
+getDegree(9) :	2
+getDegree(12) :	4
+getDegree(13) :	2
+getDegree(15) :	4
+getDegree(17) :	3
+getDegree(16) :	2
+
+depthFirstTraversal(0) :	0,14,11,7,4,5,2,3,10,6,Horses,8,12,13,17,15,16,9
+depthFirstTraversal(2) :	2,0,14,11,7,4,5,6,10,3,8,12,13,17,15,16,9,Horses
+depthFirstTraversal(4) :	4,0,14,11,7,8,12,13,17,15,16,9,5,2,3,10,6,Horses
+depthFirstTraversal(14) :	14,0,2,3,10,6,5,4,7,11,8,12,13,17,15,16,9,Horses
+depthFirstTraversal(1) :	
+depthFirstTraversal(5) :	5,2,0,14,11,7,4,Horses,8,12,13,17,15,16,9,3,10,6
+depthFirstTraversal(3) :	3,10,6,2,0,14,11,7,4,5,8,12,13,17,15,16,9,Horses
+depthFirstTraversal(6) :	6,10,3,2,0,14,11,7,4,5,8,12,13,17,15,16,9,Horses
+depthFirstTraversal(10) :	10,3,2,0,14,11,7,4,5,6,8,12,13,17,15,16,9,Horses
+depthFirstTraversal(7) :	7,11,14,0,2,3,10,6,5,4,Horses,8,12,13,17,15,16,9
+depthFirstTraversal(8) :	8,11,14,0,2,3,10,6,5,4,7,Horses,15,12,13,17,16,9
+depthFirstTraversal(11) :	11,14,0,2,3,10,6,5,4,7,Horses,8,12,13,17,15,16,9
+depthFirstTraversal(9) :	9,12,13,17,15,14,0,2,3,10,6,5,4,7,11,8,Horses,16
+depthFirstTraversal(12) :	12,13,17,15,14,0,2,3,10,6,5,4,7,11,8,9,Horses,16
+depthFirstTraversal(13) :	13,12,15,14,0,2,3,10,6,5,4,7,11,8,9,Horses,16,17
+depthFirstTraversal(15) :	15,12,13,17,16,8,11,14,0,2,3,10,6,5,4,7,Horses,9
+depthFirstTraversal(17) :	17,13,12,15,14,0,2,3,10,6,5,4,7,11,8,9,Horses,16
+depthFirstTraversal(16) :	16,15,12,13,17,8,11,14,0,2,3,10,6,5,4,7,Horses,9
+
+getOdd() 0,11,17,2,5,6,7,Horses
+
+getChinesePostmanCost() 164
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(14) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(6) :	not available
+getChinesePostmanRoute(10) :	not available
+getChinesePostmanRoute(7) :	not available
+getChinesePostmanRoute(8) :	not available
+getChinesePostmanRoute(11) :	not available
+getChinesePostmanRoute(9) :	not available
+getChinesePostmanRoute(12) :	not available
+getChinesePostmanRoute(13) :	not available
+getChinesePostmanRoute(15) :	not available
+getChinesePostmanRoute(17) :	not available
+getChinesePostmanRoute(16) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/nikolaus.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(C,v1
+changeLabel(Horses,Bananas) :false
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+numEdges(C,B) :	1
+numEdges(B,C) :	1
+
+numEdges(E,C) :	1
+numEdges(C,E) :	1
+
+numEdges(D,E) :	0
+numEdges(E,D) :	0
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getPath(C,B) :	C,B
+getPath(B,C) :	B,C
+
+getPath(E,C) :	E,C
+getPath(C,E) :	C,E
+
+getPath(D,E) :	D,B,E
+getPath(E,D) :	E,B,D
+
+getDegree(A) :	3
+getDegree(B) :	4
+getDegree(C) :	4
+getDegree(E) :	3
+getDegree(D) :	2
+
+depthFirstTraversal(A) :	A,B,C,D,E
+depthFirstTraversal(B) :	B,A,C,D,E
+depthFirstTraversal(C) :	C,A,B,D,E
+depthFirstTraversal(E) :	E,A,B,C,D
+depthFirstTraversal(D) :	D,B,A,C,E
+
+getOdd() A,E
+
+getChinesePostmanCost() 72
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(E) :	not available
+getChinesePostmanRoute(D) :	not available
+
+Reconstruct graph to same: true
+changeLabel(D,Horses) :true
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+numEdges(C,B) :	1
+numEdges(B,C) :	1
+
+numEdges(E,C) :	1
+numEdges(C,E) :	1
+
+numEdges(D,E) :	0
+numEdges(E,D) :	0
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getPath(C,B) :	C,B
+getPath(B,C) :	B,C
+
+getPath(E,C) :	E,C
+getPath(C,E) :	C,E
+
+getPath(D,E) :	
+getPath(E,D) :	
+
+getDegree(A) :	3
+getDegree(B) :	4
+getDegree(C) :	4
+getDegree(E) :	3
+getDegree(D) :	0
+
+depthFirstTraversal(A) :	A,B,C,E,Horses
+depthFirstTraversal(B) :	B,A,C,E,Horses
+depthFirstTraversal(C) :	C,A,B,E,Horses
+depthFirstTraversal(E) :	E,A,B,C,Horses
+depthFirstTraversal(D) :	
+
+getOdd() A,E
+
+getChinesePostmanCost() 72
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(E) :	not available
+getChinesePostmanRoute(D) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/pg409DFS.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(i,v0
+changeLabel(Horses,Bananas) :false
+numEdges(e,a) :	1
+numEdges(a,e) :	1
+
+numEdges(i,e) :	1
+numEdges(e,i) :	1
+
+numEdges(f,i) :	1
+numEdges(i,f) :	1
+
+numEdges(g,f) :	0
+numEdges(f,g) :	0
+
+numEdges(b,g) :	1
+numEdges(g,b) :	1
+
+getPath(e,a) :	e,a
+getPath(a,e) :	a,e
+
+getPath(i,e) :	i,e
+getPath(e,i) :	e,i
+
+getPath(f,i) :	f,i
+getPath(i,f) :	i,f
+
+getPath(g,f) :	g,a,f
+getPath(f,g) :	f,a,g
+
+getPath(b,g) :	b,g
+getPath(g,b) :	g,b
+
+getDegree(a) :	4
+getDegree(e) :	3
+getDegree(i) :	3
+getDegree(f) :	3
+getDegree(g) :	2
+getDegree(b) :	1
+
+depthFirstTraversal(a) :	a,e,f,i,g,b
+depthFirstTraversal(e) :	e,a,f,i,g,b
+depthFirstTraversal(i) :	i,a,e,f,g,b
+depthFirstTraversal(f) :	f,a,e,i,g,b
+depthFirstTraversal(g) :	g,a,e,f,i,b
+depthFirstTraversal(b) :	b,g,a,e,f,i
+
+getOdd() b,e,f,i
+
+getChinesePostmanCost() 12
+
+getChinesePostmanRoute(a) :	not available
+getChinesePostmanRoute(e) :	not available
+getChinesePostmanRoute(i) :	not available
+getChinesePostmanRoute(f) :	not available
+getChinesePostmanRoute(g) :	not available
+getChinesePostmanRoute(b) :	not available
+
+Reconstruct graph to same: true
+changeLabel(g,Horses) :true
+numEdges(e,a) :	1
+numEdges(a,e) :	1
+
+numEdges(i,e) :	1
+numEdges(e,i) :	1
+
+numEdges(f,i) :	1
+numEdges(i,f) :	1
+
+numEdges(g,f) :	0
+numEdges(f,g) :	0
+
+numEdges(b,g) :	0
+numEdges(g,b) :	0
+
+getPath(e,a) :	e,a
+getPath(a,e) :	a,e
+
+getPath(i,e) :	i,e
+getPath(e,i) :	e,i
+
+getPath(f,i) :	f,i
+getPath(i,f) :	i,f
+
+getPath(g,f) :	
+getPath(f,g) :	
+
+getPath(b,g) :	
+getPath(g,b) :	
+
+getDegree(a) :	4
+getDegree(e) :	3
+getDegree(i) :	3
+getDegree(f) :	3
+getDegree(g) :	0
+getDegree(b) :	1
+
+depthFirstTraversal(a) :	a,Horses,b,e,f,i
+depthFirstTraversal(e) :	e,a,Horses,b,f,i
+depthFirstTraversal(i) :	i,a,Horses,b,e,f
+depthFirstTraversal(f) :	f,a,Horses,b,e,i
+depthFirstTraversal(g) :	
+depthFirstTraversal(b) :	b,Horses,a,e,f,i
+
+getOdd() b,e,f,i
+
+getChinesePostmanCost() 12
+
+getChinesePostmanRoute(a) :	not available
+getChinesePostmanRoute(e) :	not available
+getChinesePostmanRoute(i) :	not available
+getChinesePostmanRoute(f) :	not available
+getChinesePostmanRoute(g) :	not available
+getChinesePostmanRoute(b) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/small.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(5,v1
+changeLabel(Horses,Bananas) :false
+numEdges(3,0) :	1
+numEdges(0,3) :	1
+
+numEdges(5,3) :	1
+numEdges(3,5) :	1
+
+numEdges(1,5) :	1
+numEdges(5,1) :	1
+
+numEdges(2,1) :	1
+numEdges(1,2) :	1
+
+numEdges(4,2) :	1
+numEdges(2,4) :	1
+
+numEdges(7,4) :	1
+numEdges(4,7) :	1
+
+numEdges(6,7) :	1
+numEdges(7,6) :	1
+
+getPath(3,0) :	3,0
+getPath(0,3) :	0,3
+
+getPath(5,3) :	5,3
+getPath(3,5) :	3,5
+
+getPath(1,5) :	1,5
+getPath(5,1) :	5,1
+
+getPath(2,1) :	2,1
+getPath(1,2) :	1,2
+
+getPath(4,2) :	4,2
+getPath(2,4) :	2,4
+
+getPath(7,4) :	7,4
+getPath(4,7) :	4,7
+
+getPath(6,7) :	6,7
+getPath(7,6) :	7,6
+
+getDegree(0) :	1
+getDegree(3) :	2
+getDegree(5) :	3
+getDegree(1) :	2
+getDegree(2) :	3
+getDegree(4) :	2
+getDegree(7) :	2
+getDegree(6) :	1
+
+depthFirstTraversal(0) :	0,3,5,1,2,4,7,6
+depthFirstTraversal(3) :	3,0,5,1,2,4,7,6
+depthFirstTraversal(5) :	5,1,2,4,7,6,3,0
+depthFirstTraversal(1) :	1,2,4,7,6,5,3,0
+depthFirstTraversal(2) :	2,1,5,3,0,4,7,6
+depthFirstTraversal(4) :	4,2,1,5,3,0,7,6
+depthFirstTraversal(7) :	7,4,2,1,5,3,0,6
+depthFirstTraversal(6) :	6,7,4,2,1,5,3,0
+
+getOdd() 0,2,5,6
+
+getChinesePostmanCost() 13
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(7) :	not available
+getChinesePostmanRoute(6) :	not available
+
+Reconstruct graph to same: true
+changeLabel(2,Horses) :true
+numEdges(3,0) :	1
+numEdges(0,3) :	1
+
+numEdges(5,3) :	1
+numEdges(3,5) :	1
+
+numEdges(1,5) :	1
+numEdges(5,1) :	1
+
+numEdges(2,1) :	0
+numEdges(1,2) :	0
+
+numEdges(4,2) :	0
+numEdges(2,4) :	0
+
+numEdges(7,4) :	1
+numEdges(4,7) :	1
+
+numEdges(6,7) :	1
+numEdges(7,6) :	1
+
+getPath(3,0) :	3,0
+getPath(0,3) :	0,3
+
+getPath(5,3) :	5,3
+getPath(3,5) :	3,5
+
+getPath(1,5) :	1,5
+getPath(5,1) :	5,1
+
+getPath(2,1) :	
+getPath(1,2) :	
+
+getPath(4,2) :	
+getPath(2,4) :	
+
+getPath(7,4) :	7,4
+getPath(4,7) :	4,7
+
+getPath(6,7) :	6,7
+getPath(7,6) :	7,6
+
+getDegree(0) :	1
+getDegree(3) :	2
+getDegree(5) :	3
+getDegree(1) :	2
+getDegree(2) :	0
+getDegree(4) :	2
+getDegree(7) :	2
+getDegree(6) :	1
+
+depthFirstTraversal(0) :	0,3,5,1,Horses,4,7,6
+depthFirstTraversal(3) :	3,0,5,1,Horses,4,7,6
+depthFirstTraversal(5) :	5,1,Horses,4,7,6,3,0
+depthFirstTraversal(1) :	1,5,3,0,Horses,4,7,6
+depthFirstTraversal(2) :	
+depthFirstTraversal(4) :	4,7,6,Horses,1,5,3,0
+depthFirstTraversal(7) :	7,4,Horses,1,5,3,0,6
+depthFirstTraversal(6) :	6,7,4,Horses,1,5,3,0
+
+getOdd() 0,5,6,Horses
+
+getChinesePostmanCost() 13
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(7) :	not available
+getChinesePostmanRoute(6) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/suffolk.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(F,v0
+changeLabel(Horses,Bananas) :false
+numEdges(E,B) :	1
+numEdges(B,E) :	1
+
+numEdges(F,E) :	1
+numEdges(E,F) :	1
+
+numEdges(D,F) :	1
+numEdges(F,D) :	1
+
+numEdges(A,D) :	1
+numEdges(D,A) :	1
+
+numEdges(C,A) :	1
+numEdges(A,C) :	1
+
+numEdges(H,C) :	1
+numEdges(C,H) :	1
+
+numEdges(G,H) :	1
+numEdges(H,G) :	1
+
+getPath(E,B) :	E,B
+getPath(B,E) :	B,E
+
+getPath(F,E) :	F,E
+getPath(E,F) :	E,F
+
+getPath(D,F) :	D,F
+getPath(F,D) :	F,D
+
+getPath(A,D) :	A,D
+getPath(D,A) :	D,A
+
+getPath(C,A) :	C,A
+getPath(A,C) :	A,C
+
+getPath(H,C) :	H,C
+getPath(C,H) :	C,H
+
+getPath(G,H) :	G,H
+getPath(H,G) :	H,G
+
+getDegree(B) :	4
+getDegree(E) :	2
+getDegree(F) :	4
+getDegree(D) :	4
+getDegree(A) :	3
+getDegree(C) :	4
+getDegree(H) :	3
+getDegree(G) :	2
+
+depthFirstTraversal(B) :	B,A,C,D,F,E,H,G
+depthFirstTraversal(E) :	E,B,A,C,D,F,H,G
+depthFirstTraversal(F) :	F,B,A,C,D,G,H,E
+depthFirstTraversal(D) :	D,A,B,E,F,H,C,G
+depthFirstTraversal(A) :	A,B,D,C,G,H,F,E
+depthFirstTraversal(C) :	C,A,B,D,F,E,H,G
+depthFirstTraversal(H) :	H,C,A,B,D,F,E,G
+depthFirstTraversal(G) :	G,C,A,B,D,F,E,H
+
+getOdd() A,H
+
+getChinesePostmanCost() 1000
+
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(E) :	not available
+getChinesePostmanRoute(F) :	not available
+getChinesePostmanRoute(D) :	not available
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(H) :	not available
+getChinesePostmanRoute(G) :	not available
+
+Reconstruct graph to same: true
+changeLabel(A,Horses) :true
+numEdges(E,B) :	1
+numEdges(B,E) :	1
+
+numEdges(F,E) :	1
+numEdges(E,F) :	1
+
+numEdges(D,F) :	1
+numEdges(F,D) :	1
+
+numEdges(A,D) :	0
+numEdges(D,A) :	0
+
+numEdges(C,A) :	0
+numEdges(A,C) :	0
+
+numEdges(H,C) :	1
+numEdges(C,H) :	1
+
+numEdges(G,H) :	1
+numEdges(H,G) :	1
+
+getPath(E,B) :	E,B
+getPath(B,E) :	B,E
+
+getPath(F,E) :	F,E
+getPath(E,F) :	E,F
+
+getPath(D,F) :	D,F
+getPath(F,D) :	F,D
+
+getPath(A,D) :	
+getPath(D,A) :	
+
+getPath(C,A) :	
+getPath(A,C) :	
+
+getPath(H,C) :	H,C
+getPath(C,H) :	C,H
+
+getPath(G,H) :	G,H
+getPath(H,G) :	H,G
+
+getDegree(B) :	4
+getDegree(E) :	2
+getDegree(F) :	4
+getDegree(D) :	4
+getDegree(A) :	0
+getDegree(C) :	4
+getDegree(H) :	3
+getDegree(G) :	2
+
+depthFirstTraversal(B) :	B,D,C,G,H,F,E,Horses
+depthFirstTraversal(E) :	E,B,D,C,G,H,F,Horses
+depthFirstTraversal(F) :	F,B,D,C,G,H,Horses,E
+depthFirstTraversal(D) :	D,B,E,F,H,C,G,Horses
+depthFirstTraversal(A) :	
+depthFirstTraversal(C) :	C,D,B,E,F,H,G,Horses
+depthFirstTraversal(H) :	H,C,D,B,E,F,Horses,G
+depthFirstTraversal(G) :	G,C,D,B,E,F,H,Horses
+
+getOdd() H,Horses
+
+getChinesePostmanCost() 1000
+
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(E) :	not available
+getChinesePostmanRoute(F) :	not available
+getChinesePostmanRoute(D) :	not available
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(C) :	not available
+getChinesePostmanRoute(H) :	not available
+getChinesePostmanRoute(G) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/traversableSimple.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(D,v0
+changeLabel(Horses,Bananas) :false
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+numEdges(D,B) :	1
+numEdges(B,D) :	1
+
+numEdges(C,D) :	1
+numEdges(D,C) :	1
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getPath(D,B) :	D,B
+getPath(B,D) :	B,D
+
+getPath(C,D) :	C,D
+getPath(D,C) :	D,C
+
+getDegree(A) :	2
+getDegree(B) :	2
+getDegree(D) :	2
+getDegree(C) :	2
+
+depthFirstTraversal(A) :	A,B,D,C
+depthFirstTraversal(B) :	B,A,C,D
+depthFirstTraversal(D) :	D,B,A,C
+depthFirstTraversal(C) :	C,A,B,D
+
+getOdd() 
+
+getChinesePostmanCost() 11
+
+getChinesePostmanRoute(A) :	A,B,D,C,A
+getChinesePostmanRoute(B) :	B,A,C,D,B
+getChinesePostmanRoute(D) :	D,B,A,C,D
+getChinesePostmanRoute(C) :	C,A,B,D,C
+
+Reconstruct graph to same: true
+changeLabel(A,Horses) :true
+numEdges(B,A) :	0
+numEdges(A,B) :	0
+
+numEdges(D,B) :	1
+numEdges(B,D) :	1
+
+numEdges(C,D) :	1
+numEdges(D,C) :	1
+
+getPath(B,A) :	
+getPath(A,B) :	
+
+getPath(D,B) :	D,B
+getPath(B,D) :	B,D
+
+getPath(C,D) :	C,D
+getPath(D,C) :	D,C
+
+getDegree(A) :	0
+getDegree(B) :	2
+getDegree(D) :	2
+getDegree(C) :	2
+
+depthFirstTraversal(A) :	
+depthFirstTraversal(B) :	B,D,C,Horses
+depthFirstTraversal(D) :	D,B,Horses,C
+depthFirstTraversal(C) :	C,D,B,Horses
+
+getOdd() 
+
+getChinesePostmanCost() 11
+
+getChinesePostmanRoute(A) :	
+getChinesePostmanRoute(B) :	B,D,C,Horses,B
+getChinesePostmanRoute(D) :	D,B,Horses,C,D
+getChinesePostmanRoute(C) :	C,D,B,Horses,C
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/nonTraversableSimple.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(D,v0
+changeLabel(Horses,Bananas) :false
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+numEdges(D,B) :	1
+numEdges(B,D) :	1
+
+numEdges(C,D) :	1
+numEdges(D,C) :	1
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getPath(D,B) :	D,B
+getPath(B,D) :	B,D
+
+getPath(C,D) :	C,D
+getPath(D,C) :	D,C
+
+getDegree(A) :	1
+getDegree(B) :	2
+getDegree(D) :	2
+getDegree(C) :	1
+
+depthFirstTraversal(A) :	A,B,D,C
+depthFirstTraversal(B) :	B,A,D,C
+depthFirstTraversal(D) :	D,B,A,C
+depthFirstTraversal(C) :	C,D,B,A
+
+getOdd() A,C
+
+getChinesePostmanCost() 20
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(D) :	not available
+getChinesePostmanRoute(C) :	not available
+
+Reconstruct graph to same: true
+changeLabel(A,Horses) :true
+numEdges(B,A) :	0
+numEdges(A,B) :	0
+
+numEdges(D,B) :	1
+numEdges(B,D) :	1
+
+numEdges(C,D) :	1
+numEdges(D,C) :	1
+
+getPath(B,A) :	
+getPath(A,B) :	
+
+getPath(D,B) :	D,B
+getPath(B,D) :	B,D
+
+getPath(C,D) :	C,D
+getPath(D,C) :	D,C
+
+getDegree(A) :	0
+getDegree(B) :	2
+getDegree(D) :	2
+getDegree(C) :	1
+
+depthFirstTraversal(A) :	
+depthFirstTraversal(B) :	B,D,C,Horses
+depthFirstTraversal(D) :	D,B,Horses,C
+depthFirstTraversal(C) :	C,D,B,Horses
+
+getOdd() C,Horses
+
+getChinesePostmanCost() 20
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+getChinesePostmanRoute(D) :	not available
+getChinesePostmanRoute(C) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/large.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(2,v0
+changeLabel(Horses,Bananas) :false
+numEdges(1,0) :	2
+numEdges(0,1) :	2
+
+numEdges(2,1) :	2
+numEdges(1,2) :	2
+
+numEdges(7,2) :	0
+numEdges(2,7) :	0
+
+numEdges(14,7) :	2
+numEdges(7,14) :	2
+
+numEdges(4,14) :	0
+numEdges(14,4) :	0
+
+numEdges(3,4) :	0
+numEdges(4,3) :	0
+
+numEdges(5,3) :	0
+numEdges(3,5) :	0
+
+numEdges(6,5) :	0
+numEdges(5,6) :	0
+
+numEdges(10,6) :	0
+numEdges(6,10) :	0
+
+numEdges(17,10) :	0
+numEdges(10,17) :	0
+
+numEdges(9,17) :	0
+numEdges(17,9) :	0
+
+numEdges(11,9) :	0
+numEdges(9,11) :	0
+
+numEdges(8,11) :	0
+numEdges(11,8) :	0
+
+numEdges(12,8) :	2
+numEdges(8,12) :	2
+
+numEdges(13,12) :	2
+numEdges(12,13) :	2
+
+numEdges(16,13) :	1
+numEdges(13,16) :	1
+
+numEdges(15,16) :	0
+numEdges(16,15) :	0
+
+getPath(1,0) :	1,0
+getPath(0,1) :	0,1
+
+getPath(2,1) :	2,1
+getPath(1,2) :	1,2
+
+getPath(7,2) :	7,0,2
+getPath(2,7) :	2,0,7
+
+getPath(14,7) :	14,7
+getPath(7,14) :	7,14
+
+getPath(4,14) :	4,1,0,14
+getPath(14,4) :	14,0,1,4
+
+getPath(3,4) :	3,2,5,4
+getPath(4,3) :	4,5,2,3
+
+getPath(5,3) :	5,2,3
+getPath(3,5) :	3,2,5
+
+getPath(6,5) :	6,3,2,5
+getPath(5,6) :	5,2,3,6
+
+getPath(10,6) :	10,3,6
+getPath(6,10) :	6,3,10
+
+getPath(17,10) :	17,3,10
+getPath(10,17) :	10,3,17
+
+getPath(9,17) :	9,10,3,17
+getPath(17,9) :	17,3,10,9
+
+getPath(11,9) :	11,7,0,2,3,10,9
+getPath(9,11) :	9,10,3,2,0,7,11
+
+getPath(8,11) :	8,12,13,17,3,2,0,7,11
+getPath(11,8) :	11,7,0,2,3,17,13,12,8
+
+getPath(12,8) :	12,8
+getPath(8,12) :	8,12
+
+getPath(13,12) :	13,12
+getPath(12,13) :	12,13
+
+getPath(16,13) :	16,13
+getPath(13,16) :	13,16
+
+getPath(15,16) :	15,13,16
+getPath(16,15) :	16,13,15
+
+getDegree(0) :	8
+getDegree(1) :	6
+getDegree(2) :	8
+getDegree(7) :	6
+getDegree(14) :	6
+getDegree(4) :	4
+getDegree(3) :	7
+getDegree(5) :	4
+getDegree(6) :	4
+getDegree(10) :	4
+getDegree(17) :	2
+getDegree(9) :	4
+getDegree(11) :	4
+getDegree(8) :	2
+getDegree(12) :	4
+getDegree(13) :	5
+getDegree(16) :	1
+getDegree(15) :	1
+
+depthFirstTraversal(0) :	0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,14,11,7
+depthFirstTraversal(1) :	1,0,14,11,7,2,3,10,9,6,17,13,12,8,15,16,5,4
+depthFirstTraversal(2) :	2,0,1,4,5,14,11,7,3,10,9,6,17,13,12,8,15,16
+depthFirstTraversal(7) :	7,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,14,11
+depthFirstTraversal(14) :	14,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,7,11
+depthFirstTraversal(4) :	4,1,0,14,11,7,2,3,10,9,6,17,13,12,8,15,16,5
+depthFirstTraversal(3) :	3,10,9,6,17,13,12,8,15,16,2,0,1,4,5,14,11,7
+depthFirstTraversal(5) :	5,2,0,1,4,14,11,7,3,10,9,6,17,13,12,8,15,16
+depthFirstTraversal(6) :	6,3,10,9,17,13,12,8,15,16,2,0,1,4,5,14,11,7
+depthFirstTraversal(10) :	10,3,17,13,12,8,15,16,2,0,1,4,5,14,11,7,6,9
+depthFirstTraversal(17) :	17,13,12,8,15,16,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(9) :	9,10,3,17,13,12,8,15,16,2,0,1,4,5,14,11,7,6
+depthFirstTraversal(11) :	11,14,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,7
+depthFirstTraversal(8) :	8,12,13,15,16,17,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(12) :	12,13,15,16,17,3,10,9,6,2,0,1,4,5,14,11,7,8
+depthFirstTraversal(13) :	13,12,8,15,16,17,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(16) :	16,13,12,8,15,17,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(15) :	15,13,12,8,16,17,3,10,9,6,2,0,1,4,5,14,11,7
+
+getOdd() 13,15,16,3
+
+getChinesePostmanCost() 212
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(7) :	not available
+getChinesePostmanRoute(14) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(6) :	not available
+getChinesePostmanRoute(10) :	not available
+getChinesePostmanRoute(17) :	not available
+getChinesePostmanRoute(9) :	not available
+getChinesePostmanRoute(11) :	not available
+getChinesePostmanRoute(8) :	not available
+getChinesePostmanRoute(12) :	not available
+getChinesePostmanRoute(13) :	not available
+getChinesePostmanRoute(16) :	not available
+getChinesePostmanRoute(15) :	not available
+
+Reconstruct graph to same: true
+changeLabel(14,Horses) :true
+numEdges(1,0) :	2
+numEdges(0,1) :	2
+
+numEdges(2,1) :	2
+numEdges(1,2) :	2
+
+numEdges(7,2) :	0
+numEdges(2,7) :	0
+
+numEdges(14,7) :	0
+numEdges(7,14) :	0
+
+numEdges(4,14) :	0
+numEdges(14,4) :	0
+
+numEdges(3,4) :	0
+numEdges(4,3) :	0
+
+numEdges(5,3) :	0
+numEdges(3,5) :	0
+
+numEdges(6,5) :	0
+numEdges(5,6) :	0
+
+numEdges(10,6) :	0
+numEdges(6,10) :	0
+
+numEdges(17,10) :	0
+numEdges(10,17) :	0
+
+numEdges(9,17) :	0
+numEdges(17,9) :	0
+
+numEdges(11,9) :	0
+numEdges(9,11) :	0
+
+numEdges(8,11) :	0
+numEdges(11,8) :	0
+
+numEdges(12,8) :	2
+numEdges(8,12) :	2
+
+numEdges(13,12) :	2
+numEdges(12,13) :	2
+
+numEdges(16,13) :	1
+numEdges(13,16) :	1
+
+numEdges(15,16) :	0
+numEdges(16,15) :	0
+
+getPath(1,0) :	1,0
+getPath(0,1) :	0,1
+
+getPath(2,1) :	2,1
+getPath(1,2) :	1,2
+
+getPath(7,2) :	7,0,2
+getPath(2,7) :	2,0,7
+
+getPath(14,7) :	
+getPath(7,14) :	
+
+getPath(4,14) :	
+getPath(14,4) :	
+
+getPath(3,4) :	3,2,5,4
+getPath(4,3) :	4,5,2,3
+
+getPath(5,3) :	5,2,3
+getPath(3,5) :	3,2,5
+
+getPath(6,5) :	6,3,2,5
+getPath(5,6) :	5,2,3,6
+
+getPath(10,6) :	10,3,6
+getPath(6,10) :	6,3,10
+
+getPath(17,10) :	17,3,10
+getPath(10,17) :	10,3,17
+
+getPath(9,17) :	9,10,3,17
+getPath(17,9) :	17,3,10,9
+
+getPath(11,9) :	11,7,0,2,3,10,9
+getPath(9,11) :	9,10,3,2,0,7,11
+
+getPath(8,11) :	8,12,13,17,3,2,0,7,11
+getPath(11,8) :	11,7,0,2,3,17,13,12,8
+
+getPath(12,8) :	12,8
+getPath(8,12) :	8,12
+
+getPath(13,12) :	13,12
+getPath(12,13) :	12,13
+
+getPath(16,13) :	16,13
+getPath(13,16) :	13,16
+
+getPath(15,16) :	15,13,16
+getPath(16,15) :	16,13,15
+
+getDegree(0) :	8
+getDegree(1) :	6
+getDegree(2) :	8
+getDegree(7) :	6
+getDegree(14) :	0
+getDegree(4) :	4
+getDegree(3) :	7
+getDegree(5) :	4
+getDegree(6) :	4
+getDegree(10) :	4
+getDegree(17) :	2
+getDegree(9) :	4
+getDegree(11) :	4
+getDegree(8) :	2
+getDegree(12) :	4
+getDegree(13) :	5
+getDegree(16) :	1
+getDegree(15) :	1
+
+depthFirstTraversal(0) :	0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,7,11,Horses
+depthFirstTraversal(1) :	1,0,2,3,10,9,6,17,13,12,8,15,16,5,4,7,11,Horses
+depthFirstTraversal(2) :	2,0,1,4,5,7,11,Horses,3,10,9,6,17,13,12,8,15,16
+depthFirstTraversal(7) :	7,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,Horses,11
+depthFirstTraversal(14) :	
+depthFirstTraversal(4) :	4,1,0,2,3,10,9,6,17,13,12,8,15,16,5,7,11,Horses
+depthFirstTraversal(3) :	3,10,9,6,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(5) :	5,2,0,1,4,7,11,Horses,3,10,9,6,17,13,12,8,15,16
+depthFirstTraversal(6) :	6,3,10,9,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(10) :	10,3,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses,6,9
+depthFirstTraversal(17) :	17,13,12,8,15,16,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(9) :	9,10,3,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses,6
+depthFirstTraversal(11) :	11,7,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,Horses
+depthFirstTraversal(8) :	8,12,13,15,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(12) :	12,13,15,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses,8
+depthFirstTraversal(13) :	13,12,8,15,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(16) :	16,13,12,8,15,17,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(15) :	15,13,12,8,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses
+
+getOdd() 13,15,16,3
+
+getChinesePostmanCost() 212
+
+getChinesePostmanRoute(0) :	not available
+getChinesePostmanRoute(1) :	not available
+getChinesePostmanRoute(2) :	not available
+getChinesePostmanRoute(7) :	not available
+getChinesePostmanRoute(14) :	not available
+getChinesePostmanRoute(4) :	not available
+getChinesePostmanRoute(3) :	not available
+getChinesePostmanRoute(5) :	not available
+getChinesePostmanRoute(6) :	not available
+getChinesePostmanRoute(10) :	not available
+getChinesePostmanRoute(17) :	not available
+getChinesePostmanRoute(9) :	not available
+getChinesePostmanRoute(11) :	not available
+getChinesePostmanRoute(8) :	not available
+getChinesePostmanRoute(12) :	not available
+getChinesePostmanRoute(13) :	not available
+getChinesePostmanRoute(16) :	not available
+getChinesePostmanRoute(15) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/tiny.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(A,v0
+changeLabel(Horses,Bananas) :false
+numEdges(B,A) :	1
+numEdges(A,B) :	1
+
+getPath(B,A) :	B,A
+getPath(A,B) :	A,B
+
+getDegree(A) :	1
+getDegree(B) :	1
+
+depthFirstTraversal(A) :	A,B
+depthFirstTraversal(B) :	B,A
+
+getOdd() A,B
+
+getChinesePostmanCost() 2
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+
+Reconstruct graph to same: true
+changeLabel(A,Horses) :true
+numEdges(B,A) :	0
+numEdges(A,B) :	0
+
+getPath(B,A) :	
+getPath(A,B) :	
+
+getDegree(A) :	0
+getDegree(B) :	1
+
+depthFirstTraversal(A) :	
+depthFirstTraversal(B) :	B,Horses
+
+getOdd() B,Horses
+
+getChinesePostmanCost() 2
+
+getChinesePostmanRoute(A) :	not available
+getChinesePostmanRoute(B) :	not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
