@@ -146,7 +146,7 @@ public class Tester {
         System.out.println("====================================================================");
 
         if (thoroughness == 1 || thoroughness == 2) {
-            System.out.println("numEdges(" + u + "," + "v" + graph.numEdges(u, v));
+            System.out.println("numEdges(" + u + "," + v + "):\t" + graph.numEdges(u, v));
 
 
             boolean full = true;
