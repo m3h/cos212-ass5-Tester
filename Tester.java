@@ -26,9 +26,9 @@ public class Tester {
     public static void main(String[] args) throws Exception {
 
         if (args.length == 1) {
-            System.out.println("Usage: java Tester [tiny|small|full]";
+            System.out.println("Usage: java Tester [tiny|small|full]");
             System.out.println("tiny - only tests chinesePostmanRoute()");
-            System.out.println("small - only tests some things"));
+            System.out.println("small - only tests some things");
             System.out.println("full - tests many combinations of everything - WARNING: produces a lot of output");
 
             System.out.println("\n\nE.g. java Tester tiny > out.txt");
@@ -142,7 +142,7 @@ public class Tester {
 
             boolean full = true;
             if (thoroughness == 1)
-                full == false;
+                full = false;
 
 
             String one = "Horses";
