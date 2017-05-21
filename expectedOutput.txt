@@ -38,6 +38,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -75,6 +78,10 @@ getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
 getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -117,6 +124,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :0
 numEdges(A,B) :0
 
@@ -154,6 +164,10 @@ getChinesePostmanRoute(A) :
 getChinesePostmanRoute(B) :B,C,D,B,D,Horses,C,Horses,B
 getChinesePostmanRoute(C) :C,B,D,B,Horses,C,D,Horses,C
 getChinesePostmanRoute(D) :D,B,C,D,B,Horses,C,Horses,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -196,6 +210,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -233,6 +250,10 @@ getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
 getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -275,6 +296,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -312,6 +336,10 @@ getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
 getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -353,6 +381,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -390,6 +421,10 @@ getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
 getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -432,6 +467,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -469,6 +507,10 @@ getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
 getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -509,6 +551,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -546,6 +591,10 @@ getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
 getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -598,6 +647,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(D,C) :1
 numEdges(C,D) :1
 
@@ -635,6 +687,10 @@ getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
 getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(C) :not available
 getChinesePostmanRoute(D) :not available
@@ -677,6 +733,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(D,C) :0
 numEdges(C,D) :0
 
@@ -714,6 +773,10 @@ getChinesePostmanRoute(C) :
 getChinesePostmanRoute(D) :D,A,B,D,B,Horses,A,Horses,D
 getChinesePostmanRoute(A) :A,B,D,A,Horses,B,D,Horses,A
 getChinesePostmanRoute(B) :B,A,D,B,D,Horses,A,Horses,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(C) :not available
 getChinesePostmanRoute(D) :not available
@@ -756,6 +819,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(D,C) :1
 numEdges(C,D) :1
 
@@ -793,6 +859,10 @@ getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
 getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(C) :not available
 getChinesePostmanRoute(D) :not available
@@ -835,6 +905,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(D,C) :1
 numEdges(C,D) :1
 
@@ -872,6 +945,10 @@ getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
 getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(C) :not available
 getChinesePostmanRoute(D) :not available
@@ -913,6 +990,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(D,C) :1
 numEdges(C,D) :1
 
@@ -950,6 +1030,10 @@ getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
 getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(C) :not available
 getChinesePostmanRoute(D) :not available
@@ -992,6 +1076,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(D,C) :1
 numEdges(C,D) :1
 
@@ -1029,6 +1116,10 @@ getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
 getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(C) :not available
 getChinesePostmanRoute(D) :not available
@@ -1069,6 +1160,9 @@ getChinesePostmanCost() 26
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(D,C) :1
 numEdges(C,D) :1
 
@@ -1106,6 +1200,10 @@ getChinesePostmanRoute(C) :C,A,B,C,A,D,B,D,C
 getChinesePostmanRoute(D) :D,A,B,C,A,C,D,B,D
 getChinesePostmanRoute(A) :A,B,C,A,C,D,B,D,A
 getChinesePostmanRoute(B) :B,A,C,A,D,B,C,D,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(C) :not available
 getChinesePostmanRoute(D) :not available
@@ -1238,6 +1336,9 @@ getChinesePostmanCost() 89
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(VANILLA,POP) :1
 numEdges(POP,VANILLA) :1
 
@@ -1365,6 +1466,10 @@ getChinesePostmanRoute(RAMEN) :RAMEN,HOT,PIZZA,APPLE,NUGGET,PIZZA,HOT,SAMOOSA,RO
 getChinesePostmanRoute(PIZZA) :PIZZA,APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA
 getChinesePostmanRoute(APPLE) :APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,APPLE
 getChinesePostmanRoute(NUGGET) :NUGGET,APPLE,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,NUGGET
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(POP) :not available
 getChinesePostmanRoute(VANILLA) :not available
@@ -1497,6 +1602,9 @@ getChinesePostmanCost() 89
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(VANILLA,POP) :1
 numEdges(POP,VANILLA) :1
 
@@ -1624,6 +1732,10 @@ getChinesePostmanRoute(RAMEN) :RAMEN,HOT,PIZZA,APPLE,NUGGET,PIZZA,HOT,SAMOOSA,RO
 getChinesePostmanRoute(PIZZA) :PIZZA,APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,Horses,CHICKEN,Horses,VANILLA,NUT,CHICKEN,POP,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA
 getChinesePostmanRoute(APPLE) :APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,Horses,CHICKEN,Horses,VANILLA,NUT,CHICKEN,POP,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,APPLE
 getChinesePostmanRoute(NUGGET) :NUGGET,APPLE,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,Horses,CHICKEN,Horses,VANILLA,NUT,CHICKEN,POP,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,NUGGET
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(POP) :not available
 getChinesePostmanRoute(VANILLA) :not available
@@ -1756,6 +1868,9 @@ getChinesePostmanCost() 89
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(VANILLA,POP) :1
 numEdges(POP,VANILLA) :1
 
@@ -1883,6 +1998,10 @@ getChinesePostmanRoute(RAMEN) :RAMEN,HOT,PIZZA,APPLE,NUGGET,PIZZA,HOT,SAMOOSA,RO
 getChinesePostmanRoute(PIZZA) :PIZZA,APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA
 getChinesePostmanRoute(APPLE) :APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,APPLE
 getChinesePostmanRoute(NUGGET) :NUGGET,APPLE,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,NUGGET
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(POP) :not available
 getChinesePostmanRoute(VANILLA) :not available
@@ -2015,6 +2134,9 @@ getChinesePostmanCost() 89
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(VANILLA,POP) :1
 numEdges(POP,VANILLA) :1
 
@@ -2142,6 +2264,10 @@ getChinesePostmanRoute(RAMEN) :RAMEN,HOT,PIZZA,APPLE,NUGGET,PIZZA,HOT,SAMOOSA,RO
 getChinesePostmanRoute(PIZZA) :PIZZA,APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA
 getChinesePostmanRoute(APPLE) :APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,APPLE
 getChinesePostmanRoute(NUGGET) :NUGGET,APPLE,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,NUGGET
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(POP) :not available
 getChinesePostmanRoute(VANILLA) :not available
@@ -2273,6 +2399,9 @@ getChinesePostmanCost() 89
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(VANILLA,POP) :1
 numEdges(POP,VANILLA) :1
 
@@ -2400,6 +2529,10 @@ getChinesePostmanRoute(RAMEN) :RAMEN,HOT,PIZZA,APPLE,NUGGET,PIZZA,HOT,SAMOOSA,RO
 getChinesePostmanRoute(PIZZA) :PIZZA,APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA
 getChinesePostmanRoute(APPLE) :APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,APPLE
 getChinesePostmanRoute(NUGGET) :NUGGET,APPLE,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,NUGGET
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(POP) :not available
 getChinesePostmanRoute(VANILLA) :not available
@@ -2532,6 +2665,9 @@ getChinesePostmanCost() 89
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(VANILLA,POP) :1
 numEdges(POP,VANILLA) :1
 
@@ -2659,6 +2795,10 @@ getChinesePostmanRoute(RAMEN) :RAMEN,HOT,PIZZA,APPLE,NUGGET,PIZZA,HOT,SAMOOSA,RO
 getChinesePostmanRoute(PIZZA) :PIZZA,APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA
 getChinesePostmanRoute(APPLE) :APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,APPLE
 getChinesePostmanRoute(NUGGET) :NUGGET,APPLE,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,NUGGET
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(POP) :not available
 getChinesePostmanRoute(VANILLA) :not available
@@ -2789,6 +2929,9 @@ getChinesePostmanCost() 89
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(VANILLA,POP) :1
 numEdges(POP,VANILLA) :1
 
@@ -2917,6 +3060,10 @@ getChinesePostmanRoute(PIZZA) :PIZZA,APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,RO
 getChinesePostmanRoute(APPLE) :APPLE,NUGGET,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,APPLE
 getChinesePostmanRoute(NUGGET) :NUGGET,APPLE,PIZZA,HOT,RAMEN,HOT,SAMOOSA,ROTI,RICE,CHICKEN,NUT,VANILLA,POP,CHICKEN,RICE,VANILLA,RUN,FREE,RUN,ROTI,RUN,SAMOOSA,ROTI,SAMOOSA,HOT,PIZZA,NUGGET
 
+END POSTMAN!!!
+====================================================================
+====================================================================
+
 getChinesePostmanRoute(POP) :not available
 getChinesePostmanRoute(VANILLA) :not available
 getChinesePostmanRoute(CHICKEN) :not available
@@ -3010,6 +3157,9 @@ getChinesePostmanCost() 14
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :1
 numEdges(0,2) :1
 
@@ -3083,6 +3233,10 @@ getChinesePostmanRoute(5) :5,1,0,1,2,0,3,1,6,4,7,4,6,1,5
 getChinesePostmanRoute(6) :6,1,0,1,2,0,3,1,5,1,6,4,7,4,6
 getChinesePostmanRoute(4) :4,6,1,0,1,2,0,3,1,5,1,6,4,7,4
 getChinesePostmanRoute(7) :7,4,6,1,0,1,2,0,3,1,5,1,6,4,7
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -3161,6 +3315,9 @@ getChinesePostmanCost() 14
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :1
 numEdges(0,2) :1
 
@@ -3234,6 +3391,10 @@ getChinesePostmanRoute(5) :
 getChinesePostmanRoute(6) :6,1,0,1,2,0,3,1,Horses,1,6,4,7,4,6
 getChinesePostmanRoute(4) :4,6,1,0,1,2,0,3,1,Horses,1,6,4,7,4
 getChinesePostmanRoute(7) :7,4,6,1,0,1,2,0,3,1,Horses,1,6,4,7
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -3312,6 +3473,9 @@ getChinesePostmanCost() 14
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :1
 numEdges(0,2) :1
 
@@ -3385,6 +3549,10 @@ getChinesePostmanRoute(5) :5,1,0,1,2,0,3,1,6,4,7,4,6,1,5
 getChinesePostmanRoute(6) :6,1,0,1,2,0,3,1,5,1,6,4,7,4,6
 getChinesePostmanRoute(4) :4,6,1,0,1,2,0,3,1,5,1,6,4,7,4
 getChinesePostmanRoute(7) :7,4,6,1,0,1,2,0,3,1,5,1,6,4,7
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -3463,6 +3631,9 @@ getChinesePostmanCost() 14
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :1
 numEdges(0,2) :1
 
@@ -3536,6 +3707,10 @@ getChinesePostmanRoute(5) :5,1,0,1,2,0,3,1,6,4,7,4,6,1,5
 getChinesePostmanRoute(6) :6,1,0,1,2,0,3,1,5,1,6,4,7,4,6
 getChinesePostmanRoute(4) :4,6,1,0,1,2,0,3,1,5,1,6,4,7,4
 getChinesePostmanRoute(7) :7,4,6,1,0,1,2,0,3,1,5,1,6,4,7
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -3613,6 +3788,9 @@ getChinesePostmanCost() 14
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :1
 numEdges(0,2) :1
 
@@ -3686,6 +3864,10 @@ getChinesePostmanRoute(5) :5,1,0,1,2,0,3,1,6,4,7,4,6,1,5
 getChinesePostmanRoute(6) :6,1,0,1,2,0,3,1,5,1,6,4,7,4,6
 getChinesePostmanRoute(4) :4,6,1,0,1,2,0,3,1,5,1,6,4,7,4
 getChinesePostmanRoute(7) :7,4,6,1,0,1,2,0,3,1,5,1,6,4,7
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -3764,6 +3946,9 @@ getChinesePostmanCost() 14
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :1
 numEdges(0,2) :1
 
@@ -3837,6 +4022,10 @@ getChinesePostmanRoute(5) :5,1,0,1,2,0,3,1,6,4,7,4,6,1,5
 getChinesePostmanRoute(6) :6,1,0,1,2,0,3,1,5,1,6,4,7,4,6
 getChinesePostmanRoute(4) :4,6,1,0,1,2,0,3,1,5,1,6,4,7,4
 getChinesePostmanRoute(7) :7,4,6,1,0,1,2,0,3,1,5,1,6,4,7
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -3913,6 +4102,9 @@ getChinesePostmanCost() 14
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :1
 numEdges(0,2) :1
 
@@ -3986,6 +4178,10 @@ getChinesePostmanRoute(5) :5,1,0,1,2,0,3,1,6,4,7,4,6,1,5
 getChinesePostmanRoute(6) :6,1,0,1,2,0,3,1,5,1,6,4,7,4,6
 getChinesePostmanRoute(4) :4,6,1,0,1,2,0,3,1,5,1,6,4,7,4
 getChinesePostmanRoute(7) :7,4,6,1,0,1,2,0,3,1,5,1,6,4,7
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -4154,6 +4350,9 @@ getChinesePostmanCost() 166
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :3
 numEdges(0,2) :3
 
@@ -4317,6 +4516,10 @@ getChinesePostmanRoute(13) :13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5
 getChinesePostmanRoute(15) :15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15
 getChinesePostmanRoute(17) :17,13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15,17
 getChinesePostmanRoute(16) :16,15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,17,16
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -4485,6 +4688,9 @@ getChinesePostmanCost() 164
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :2
 numEdges(0,2) :2
 
@@ -4648,6 +4854,10 @@ getChinesePostmanRoute(13) :13,12,15,12,8,11,14,0,2,0,4,5,2,3,10,6,2,Horses,4,7,
 getChinesePostmanRoute(15) :15,12,13,17,15,12,8,11,14,0,2,0,4,5,2,3,10,6,2,Horses,4,7,11,8,12,9,8,5,6,5,Horses,4,7,14,15,16,17,15
 getChinesePostmanRoute(17) :17,13,12,15,12,8,11,14,0,2,0,4,5,2,3,10,6,2,Horses,4,7,11,8,12,9,8,5,6,5,Horses,4,7,14,15,16,17,15,17
 getChinesePostmanRoute(16) :16,15,12,13,17,15,12,8,11,14,0,2,0,4,5,2,3,10,6,2,Horses,4,7,11,8,12,9,8,5,6,5,Horses,4,7,14,15,17,16
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -4816,6 +5026,9 @@ getChinesePostmanCost() 166
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :3
 numEdges(0,2) :3
 
@@ -4979,6 +5192,10 @@ getChinesePostmanRoute(13) :13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5
 getChinesePostmanRoute(15) :15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15
 getChinesePostmanRoute(17) :17,13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15,17
 getChinesePostmanRoute(16) :16,15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,17,16
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -5147,6 +5364,9 @@ getChinesePostmanCost() 166
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :3
 numEdges(0,2) :3
 
@@ -5310,6 +5530,10 @@ getChinesePostmanRoute(13) :13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5
 getChinesePostmanRoute(15) :15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15
 getChinesePostmanRoute(17) :17,13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15,17
 getChinesePostmanRoute(16) :16,15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,17,16
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -5477,6 +5701,9 @@ getChinesePostmanCost() 166
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :3
 numEdges(0,2) :3
 
@@ -5640,6 +5867,10 @@ getChinesePostmanRoute(13) :13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5
 getChinesePostmanRoute(15) :15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15
 getChinesePostmanRoute(17) :17,13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15,17
 getChinesePostmanRoute(16) :16,15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,17,16
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -5808,6 +6039,9 @@ getChinesePostmanCost() 166
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :3
 numEdges(0,2) :3
 
@@ -5971,6 +6205,10 @@ getChinesePostmanRoute(13) :13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5
 getChinesePostmanRoute(15) :15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15
 getChinesePostmanRoute(17) :17,13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15,17
 getChinesePostmanRoute(16) :16,15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,17,16
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
@@ -6137,6 +6375,9 @@ getChinesePostmanCost() 166
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(2,0) :3
 numEdges(0,2) :3
 
@@ -6301,6 +6542,10 @@ getChinesePostmanRoute(15) :15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4
 getChinesePostmanRoute(17) :17,13,12,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,16,17,15,17
 getChinesePostmanRoute(16) :16,15,12,13,17,15,12,8,11,14,0,2,0,2,1,2,3,10,6,2,5,1,4,0,4,5,6,5,8,12,9,8,11,7,4,7,14,15,17,16
 
+END POSTMAN!!!
+====================================================================
+====================================================================
+
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(2) :not available
 getChinesePostmanRoute(4) :not available
@@ -6374,6 +6619,9 @@ getChinesePostmanCost() 72
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -6420,6 +6668,10 @@ getChinesePostmanRoute(B) :B,A,C,B,D,C,E,A,E,B
 getChinesePostmanRoute(C) :C,A,B,C,D,B,E,A,E,C
 getChinesePostmanRoute(E) :E,A,B,C,A,E,B,D,C,E
 getChinesePostmanRoute(D) :D,B,A,C,B,E,A,E,C,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -6471,6 +6723,9 @@ getChinesePostmanCost() 72
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -6517,6 +6772,10 @@ getChinesePostmanRoute(B) :B,A,C,B,E,A,E,C,Horses,B
 getChinesePostmanRoute(C) :C,A,B,C,E,A,E,B,Horses,C
 getChinesePostmanRoute(E) :E,A,B,C,A,E,B,Horses,C,E
 getChinesePostmanRoute(D) :
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -6568,6 +6827,9 @@ getChinesePostmanCost() 72
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -6614,6 +6876,10 @@ getChinesePostmanRoute(B) :B,A,C,B,D,C,E,A,E,B
 getChinesePostmanRoute(C) :C,A,B,C,D,B,E,A,E,C
 getChinesePostmanRoute(E) :E,A,B,C,A,E,B,D,C,E
 getChinesePostmanRoute(D) :D,B,A,C,B,E,A,E,C,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -6665,6 +6931,9 @@ getChinesePostmanCost() 72
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -6711,6 +6980,10 @@ getChinesePostmanRoute(B) :B,A,C,B,D,C,E,A,E,B
 getChinesePostmanRoute(C) :C,A,B,C,D,B,E,A,E,C
 getChinesePostmanRoute(E) :E,A,B,C,A,E,B,D,C,E
 getChinesePostmanRoute(D) :D,B,A,C,B,E,A,E,C,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -6761,6 +7034,9 @@ getChinesePostmanCost() 72
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -6807,6 +7083,10 @@ getChinesePostmanRoute(B) :B,A,C,B,D,C,E,A,E,B
 getChinesePostmanRoute(C) :C,A,B,C,D,B,E,A,E,C
 getChinesePostmanRoute(E) :E,A,B,C,A,E,B,D,C,E
 getChinesePostmanRoute(D) :D,B,A,C,B,E,A,E,C,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -6858,6 +7138,9 @@ getChinesePostmanCost() 72
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -6904,6 +7187,10 @@ getChinesePostmanRoute(B) :B,A,C,B,D,C,E,A,E,B
 getChinesePostmanRoute(C) :C,A,B,C,D,B,E,A,E,C
 getChinesePostmanRoute(E) :E,A,B,C,A,E,B,D,C,E
 getChinesePostmanRoute(D) :D,B,A,C,B,E,A,E,C,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -6953,6 +7240,9 @@ getChinesePostmanCost() 72
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -6999,6 +7289,10 @@ getChinesePostmanRoute(B) :B,A,C,B,D,C,E,A,E,B
 getChinesePostmanRoute(C) :C,A,B,C,D,B,E,A,E,C
 getChinesePostmanRoute(E) :E,A,B,C,A,E,B,D,C,E
 getChinesePostmanRoute(D) :D,B,A,C,B,E,A,E,C,D
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -7068,6 +7362,9 @@ getChinesePostmanCost() 12
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(e,a) :2
 numEdges(a,e) :2
 
@@ -7123,6 +7420,10 @@ getChinesePostmanRoute(i) :i,a,e,a,g,b,g,a,f,e,i,f,i
 getChinesePostmanRoute(f) :f,a,e,a,g,b,g,a,i,e,f,i,f
 getChinesePostmanRoute(g) :g,a,e,a,f,e,i,f,i,a,g,b,g
 getChinesePostmanRoute(b) :b,g,a,e,a,f,e,i,f,i,a,g,b
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(a) :not available
 getChinesePostmanRoute(e) :not available
@@ -7183,6 +7484,9 @@ getChinesePostmanCost() 12
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(e,a) :2
 numEdges(a,e) :2
 
@@ -7238,6 +7542,10 @@ getChinesePostmanRoute(i) :i,a,Horses,b,Horses,a,e,a,f,e,i,f,i
 getChinesePostmanRoute(f) :f,a,Horses,b,Horses,a,e,a,i,e,f,i,f
 getChinesePostmanRoute(g) :
 getChinesePostmanRoute(b) :b,Horses,a,e,a,f,e,i,f,i,a,Horses,b
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(a) :not available
 getChinesePostmanRoute(e) :not available
@@ -7298,6 +7606,9 @@ getChinesePostmanCost() 12
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(e,a) :2
 numEdges(a,e) :2
 
@@ -7353,6 +7664,10 @@ getChinesePostmanRoute(i) :i,a,e,a,g,b,g,a,f,e,i,f,i
 getChinesePostmanRoute(f) :f,a,e,a,g,b,g,a,i,e,f,i,f
 getChinesePostmanRoute(g) :g,a,e,a,f,e,i,f,i,a,g,b,g
 getChinesePostmanRoute(b) :b,g,a,e,a,f,e,i,f,i,a,g,b
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(a) :not available
 getChinesePostmanRoute(e) :not available
@@ -7413,6 +7728,9 @@ getChinesePostmanCost() 12
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(e,a) :2
 numEdges(a,e) :2
 
@@ -7468,6 +7786,10 @@ getChinesePostmanRoute(i) :i,a,e,a,g,b,g,a,f,e,i,f,i
 getChinesePostmanRoute(f) :f,a,e,a,g,b,g,a,i,e,f,i,f
 getChinesePostmanRoute(g) :g,a,e,a,f,e,i,f,i,a,g,b,g
 getChinesePostmanRoute(b) :b,g,a,e,a,f,e,i,f,i,a,g,b
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(a) :not available
 getChinesePostmanRoute(e) :not available
@@ -7527,6 +7849,9 @@ getChinesePostmanCost() 12
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(e,a) :2
 numEdges(a,e) :2
 
@@ -7582,6 +7907,10 @@ getChinesePostmanRoute(i) :i,a,e,a,g,b,g,a,f,e,i,f,i
 getChinesePostmanRoute(f) :f,a,e,a,g,b,g,a,i,e,f,i,f
 getChinesePostmanRoute(g) :g,a,e,a,f,e,i,f,i,a,g,b,g
 getChinesePostmanRoute(b) :b,g,a,e,a,f,e,i,f,i,a,g,b
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(a) :not available
 getChinesePostmanRoute(e) :not available
@@ -7642,6 +7971,9 @@ getChinesePostmanCost() 12
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(e,a) :2
 numEdges(a,e) :2
 
@@ -7697,6 +8029,10 @@ getChinesePostmanRoute(i) :i,a,e,a,g,b,g,a,f,e,i,f,i
 getChinesePostmanRoute(f) :f,a,e,a,g,b,g,a,i,e,f,i,f
 getChinesePostmanRoute(g) :g,a,e,a,f,e,i,f,i,a,g,b,g
 getChinesePostmanRoute(b) :b,g,a,e,a,f,e,i,f,i,a,g,b
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(a) :not available
 getChinesePostmanRoute(e) :not available
@@ -7755,6 +8091,9 @@ getChinesePostmanCost() 12
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(e,a) :2
 numEdges(a,e) :2
 
@@ -7810,6 +8149,10 @@ getChinesePostmanRoute(i) :i,a,e,a,g,b,g,a,f,e,i,f,i
 getChinesePostmanRoute(f) :f,a,e,a,g,b,g,a,i,e,f,i,f
 getChinesePostmanRoute(g) :g,a,e,a,f,e,i,f,i,a,g,b,g
 getChinesePostmanRoute(b) :b,g,a,e,a,f,e,i,f,i,a,g,b
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(a) :not available
 getChinesePostmanRoute(e) :not available
@@ -7896,6 +8239,9 @@ getChinesePostmanCost() 13
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(3,0) :2
 numEdges(0,3) :2
 
@@ -7969,6 +8315,10 @@ getChinesePostmanRoute(2) :2,1,5,3,0,3,5,2,4,7,6,7,4,2
 getChinesePostmanRoute(4) :4,2,1,5,3,0,3,5,2,4,7,6,7,4
 getChinesePostmanRoute(7) :7,4,2,1,5,3,0,3,5,2,4,7,6,7
 getChinesePostmanRoute(6) :6,7,4,2,1,5,3,0,3,5,2,4,7,6
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(3) :not available
@@ -8047,6 +8397,9 @@ getChinesePostmanCost() 13
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(3,0) :2
 numEdges(0,3) :2
 
@@ -8120,6 +8473,10 @@ getChinesePostmanRoute(2) :
 getChinesePostmanRoute(4) :4,7,6,7,4,Horses,1,5,3,0,3,5,Horses,4
 getChinesePostmanRoute(7) :7,4,Horses,1,5,3,0,3,5,Horses,4,7,6,7
 getChinesePostmanRoute(6) :6,7,4,Horses,1,5,3,0,3,5,Horses,4,7,6
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(3) :not available
@@ -8198,6 +8555,9 @@ getChinesePostmanCost() 13
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(3,0) :2
 numEdges(0,3) :2
 
@@ -8271,6 +8631,10 @@ getChinesePostmanRoute(2) :2,1,5,3,0,3,5,2,4,7,6,7,4,2
 getChinesePostmanRoute(4) :4,2,1,5,3,0,3,5,2,4,7,6,7,4
 getChinesePostmanRoute(7) :7,4,2,1,5,3,0,3,5,2,4,7,6,7
 getChinesePostmanRoute(6) :6,7,4,2,1,5,3,0,3,5,2,4,7,6
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(3) :not available
@@ -8349,6 +8713,9 @@ getChinesePostmanCost() 13
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(3,0) :2
 numEdges(0,3) :2
 
@@ -8422,6 +8789,10 @@ getChinesePostmanRoute(2) :2,1,5,3,0,3,5,2,4,7,6,7,4,2
 getChinesePostmanRoute(4) :4,2,1,5,3,0,3,5,2,4,7,6,7,4
 getChinesePostmanRoute(7) :7,4,2,1,5,3,0,3,5,2,4,7,6,7
 getChinesePostmanRoute(6) :6,7,4,2,1,5,3,0,3,5,2,4,7,6
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(3) :not available
@@ -8499,6 +8870,9 @@ getChinesePostmanCost() 13
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(3,0) :2
 numEdges(0,3) :2
 
@@ -8572,6 +8946,10 @@ getChinesePostmanRoute(2) :2,1,5,3,0,3,5,2,4,7,6,7,4,2
 getChinesePostmanRoute(4) :4,2,1,5,3,0,3,5,2,4,7,6,7,4
 getChinesePostmanRoute(7) :7,4,2,1,5,3,0,3,5,2,4,7,6,7
 getChinesePostmanRoute(6) :6,7,4,2,1,5,3,0,3,5,2,4,7,6
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(3) :not available
@@ -8650,6 +9028,9 @@ getChinesePostmanCost() 13
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(3,0) :2
 numEdges(0,3) :2
 
@@ -8723,6 +9104,10 @@ getChinesePostmanRoute(2) :2,1,5,3,0,3,5,2,4,7,6,7,4,2
 getChinesePostmanRoute(4) :4,2,1,5,3,0,3,5,2,4,7,6,7,4
 getChinesePostmanRoute(7) :7,4,2,1,5,3,0,3,5,2,4,7,6,7
 getChinesePostmanRoute(6) :6,7,4,2,1,5,3,0,3,5,2,4,7,6
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(3) :not available
@@ -8799,6 +9184,9 @@ getChinesePostmanCost() 13
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(3,0) :2
 numEdges(0,3) :2
 
@@ -8872,6 +9260,10 @@ getChinesePostmanRoute(2) :2,1,5,3,0,3,5,2,4,7,6,7,4,2
 getChinesePostmanRoute(4) :4,2,1,5,3,0,3,5,2,4,7,6,7,4
 getChinesePostmanRoute(7) :7,4,2,1,5,3,0,3,5,2,4,7,6,7
 getChinesePostmanRoute(6) :6,7,4,2,1,5,3,0,3,5,2,4,7,6
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(3) :not available
@@ -8960,6 +9352,9 @@ getChinesePostmanCost() 1000
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(E,B) :1
 numEdges(B,E) :1
 
@@ -9033,6 +9428,10 @@ getChinesePostmanRoute(A) :A,B,A,C,D,B,E,F,B,F,H,C,G,H,F,D,A
 getChinesePostmanRoute(C) :C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H,C
 getChinesePostmanRoute(H) :H,C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H
 getChinesePostmanRoute(G) :G,C,A,B,A,D,B,E,F,B,F,D,C,H,F,H,G
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(B) :not available
 getChinesePostmanRoute(E) :not available
@@ -9111,6 +9510,9 @@ getChinesePostmanCost() 1000
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(E,B) :1
 numEdges(B,E) :1
 
@@ -9184,6 +9586,10 @@ getChinesePostmanRoute(A) :
 getChinesePostmanRoute(C) :C,D,B,E,F,B,F,D,Horses,B,Horses,C,G,H,F,H,C
 getChinesePostmanRoute(H) :H,C,D,B,E,F,B,F,D,Horses,B,Horses,C,G,H,F,H
 getChinesePostmanRoute(G) :G,C,D,B,E,F,B,F,D,Horses,B,Horses,C,H,F,H,G
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(B) :not available
 getChinesePostmanRoute(E) :not available
@@ -9262,6 +9668,9 @@ getChinesePostmanCost() 1000
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(E,B) :1
 numEdges(B,E) :1
 
@@ -9335,6 +9744,10 @@ getChinesePostmanRoute(A) :A,B,A,C,D,B,E,F,B,F,H,C,G,H,F,D,A
 getChinesePostmanRoute(C) :C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H,C
 getChinesePostmanRoute(H) :H,C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H
 getChinesePostmanRoute(G) :G,C,A,B,A,D,B,E,F,B,F,D,C,H,F,H,G
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(B) :not available
 getChinesePostmanRoute(E) :not available
@@ -9413,6 +9826,9 @@ getChinesePostmanCost() 1000
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(E,B) :1
 numEdges(B,E) :1
 
@@ -9486,6 +9902,10 @@ getChinesePostmanRoute(A) :A,B,A,C,D,B,E,F,B,F,H,C,G,H,F,D,A
 getChinesePostmanRoute(C) :C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H,C
 getChinesePostmanRoute(H) :H,C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H
 getChinesePostmanRoute(G) :G,C,A,B,A,D,B,E,F,B,F,D,C,H,F,H,G
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(B) :not available
 getChinesePostmanRoute(E) :not available
@@ -9563,6 +9983,9 @@ getChinesePostmanCost() 1000
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(E,B) :1
 numEdges(B,E) :1
 
@@ -9636,6 +10059,10 @@ getChinesePostmanRoute(A) :A,B,A,C,D,B,E,F,B,F,H,C,G,H,F,D,A
 getChinesePostmanRoute(C) :C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H,C
 getChinesePostmanRoute(H) :H,C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H
 getChinesePostmanRoute(G) :G,C,A,B,A,D,B,E,F,B,F,D,C,H,F,H,G
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(B) :not available
 getChinesePostmanRoute(E) :not available
@@ -9714,6 +10141,9 @@ getChinesePostmanCost() 1000
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(E,B) :1
 numEdges(B,E) :1
 
@@ -9787,6 +10217,10 @@ getChinesePostmanRoute(A) :A,B,A,C,D,B,E,F,B,F,H,C,G,H,F,D,A
 getChinesePostmanRoute(C) :C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H,C
 getChinesePostmanRoute(H) :H,C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H
 getChinesePostmanRoute(G) :G,C,A,B,A,D,B,E,F,B,F,D,C,H,F,H,G
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(B) :not available
 getChinesePostmanRoute(E) :not available
@@ -9863,6 +10297,9 @@ getChinesePostmanCost() 1000
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(E,B) :1
 numEdges(B,E) :1
 
@@ -9937,6 +10374,10 @@ getChinesePostmanRoute(C) :C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H,C
 getChinesePostmanRoute(H) :H,C,A,B,A,D,B,E,F,B,F,D,C,G,H,F,H
 getChinesePostmanRoute(G) :G,C,A,B,A,D,B,E,F,B,F,D,C,H,F,H,G
 
+END POSTMAN!!!
+====================================================================
+====================================================================
+
 getChinesePostmanRoute(B) :not available
 getChinesePostmanRoute(E) :not available
 getChinesePostmanRoute(F) :not available
@@ -9992,6 +10433,9 @@ getChinesePostmanCost() 11
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -10029,6 +10473,10 @@ getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
 getChinesePostmanRoute(D) :D,B,A,C,D
 getChinesePostmanRoute(C) :C,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
@@ -10071,6 +10519,9 @@ getChinesePostmanCost() 11
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :0
 numEdges(A,B) :0
 
@@ -10108,6 +10559,10 @@ getChinesePostmanRoute(A) :
 getChinesePostmanRoute(B) :B,D,C,Horses,B
 getChinesePostmanRoute(D) :D,B,Horses,C,D
 getChinesePostmanRoute(C) :C,D,B,Horses,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :
 getChinesePostmanRoute(B) :B,D,C,Horses,B
@@ -10150,6 +10605,9 @@ getChinesePostmanCost() 11
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -10187,6 +10645,10 @@ getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
 getChinesePostmanRoute(D) :D,B,A,C,D
 getChinesePostmanRoute(C) :C,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
@@ -10229,6 +10691,9 @@ getChinesePostmanCost() 11
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -10266,6 +10731,10 @@ getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
 getChinesePostmanRoute(D) :D,B,A,C,D
 getChinesePostmanRoute(C) :C,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
@@ -10307,6 +10776,9 @@ getChinesePostmanCost() 11
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -10344,6 +10816,10 @@ getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
 getChinesePostmanRoute(D) :D,B,A,C,D
 getChinesePostmanRoute(C) :C,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
@@ -10386,6 +10862,9 @@ getChinesePostmanCost() 11
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -10423,6 +10902,10 @@ getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
 getChinesePostmanRoute(D) :D,B,A,C,D
 getChinesePostmanRoute(C) :C,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
@@ -10463,6 +10946,9 @@ getChinesePostmanCost() 11
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :1
 numEdges(A,B) :1
 
@@ -10500,6 +10986,10 @@ getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
 getChinesePostmanRoute(D) :D,B,A,C,D
 getChinesePostmanRoute(C) :C,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :A,B,D,C,A
 getChinesePostmanRoute(B) :B,A,C,D,B
@@ -10552,6 +11042,9 @@ getChinesePostmanCost() 20
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :2
 numEdges(A,B) :2
 
@@ -10589,6 +11082,10 @@ getChinesePostmanRoute(A) :A,B,D,C,D,B,A
 getChinesePostmanRoute(B) :B,A,B,D,C,D,B
 getChinesePostmanRoute(D) :D,B,A,B,D,C,D
 getChinesePostmanRoute(C) :C,D,B,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -10631,6 +11128,9 @@ getChinesePostmanCost() 20
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :0
 numEdges(A,B) :0
 
@@ -10668,6 +11168,10 @@ getChinesePostmanRoute(A) :
 getChinesePostmanRoute(B) :B,D,C,D,B,Horses,B
 getChinesePostmanRoute(D) :D,B,Horses,B,D,C,D
 getChinesePostmanRoute(C) :C,D,B,Horses,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -10710,6 +11214,9 @@ getChinesePostmanCost() 20
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :2
 numEdges(A,B) :2
 
@@ -10747,6 +11254,10 @@ getChinesePostmanRoute(A) :A,B,D,C,D,B,A
 getChinesePostmanRoute(B) :B,A,B,D,C,D,B
 getChinesePostmanRoute(D) :D,B,A,B,D,C,D
 getChinesePostmanRoute(C) :C,D,B,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -10789,6 +11300,9 @@ getChinesePostmanCost() 20
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :2
 numEdges(A,B) :2
 
@@ -10826,6 +11340,10 @@ getChinesePostmanRoute(A) :A,B,D,C,D,B,A
 getChinesePostmanRoute(B) :B,A,B,D,C,D,B
 getChinesePostmanRoute(D) :D,B,A,B,D,C,D
 getChinesePostmanRoute(C) :C,D,B,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -10867,6 +11385,9 @@ getChinesePostmanCost() 20
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :2
 numEdges(A,B) :2
 
@@ -10904,6 +11425,10 @@ getChinesePostmanRoute(A) :A,B,D,C,D,B,A
 getChinesePostmanRoute(B) :B,A,B,D,C,D,B
 getChinesePostmanRoute(D) :D,B,A,B,D,C,D
 getChinesePostmanRoute(C) :C,D,B,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -10946,6 +11471,9 @@ getChinesePostmanCost() 20
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :2
 numEdges(A,B) :2
 
@@ -10983,6 +11511,10 @@ getChinesePostmanRoute(A) :A,B,D,C,D,B,A
 getChinesePostmanRoute(B) :B,A,B,D,C,D,B
 getChinesePostmanRoute(D) :D,B,A,B,D,C,D
 getChinesePostmanRoute(C) :C,D,B,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -11023,6 +11555,9 @@ getChinesePostmanCost() 20
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(B,A) :2
 numEdges(A,B) :2
 
@@ -11060,6 +11595,10 @@ getChinesePostmanRoute(A) :A,B,D,C,D,B,A
 getChinesePostmanRoute(B) :B,A,B,D,C,D,B
 getChinesePostmanRoute(D) :D,B,A,B,D,C,D
 getChinesePostmanRoute(C) :C,D,B,A,B,D,C
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(A) :not available
 getChinesePostmanRoute(B) :not available
@@ -11224,6 +11763,9 @@ getChinesePostmanCost() 212
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(1,0) :2
 numEdges(0,1) :2
 
@@ -11387,6 +11929,10 @@ getChinesePostmanRoute(12) :12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,
 getChinesePostmanRoute(13) :13,12,8,12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13
 getChinesePostmanRoute(16) :16,13,12,8,12,13,15,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,16
 getChinesePostmanRoute(15) :15,13,12,8,12,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,15
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(1) :not available
@@ -11555,6 +12101,9 @@ getChinesePostmanCost() 212
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(1,0) :2
 numEdges(0,1) :2
 
@@ -11718,6 +12267,10 @@ getChinesePostmanRoute(12) :12,13,15,13,16,13,17,3,10,3,2,0,1,0,7,0,Horses,11,7,
 getChinesePostmanRoute(13) :13,12,8,12,13,15,13,16,13,17,3,10,3,2,0,1,0,7,0,Horses,11,7,11,Horses,7,Horses,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13
 getChinesePostmanRoute(16) :16,13,12,8,12,13,15,13,17,3,10,3,2,0,1,0,7,0,Horses,11,7,11,Horses,7,Horses,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,16
 getChinesePostmanRoute(15) :15,13,12,8,12,13,16,13,17,3,10,3,2,0,1,0,7,0,Horses,11,7,11,Horses,7,Horses,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,15
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(1) :not available
@@ -11886,6 +12439,9 @@ getChinesePostmanCost() 212
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(1,0) :2
 numEdges(0,1) :2
 
@@ -12049,6 +12605,10 @@ getChinesePostmanRoute(12) :12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,
 getChinesePostmanRoute(13) :13,12,8,12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13
 getChinesePostmanRoute(16) :16,13,12,8,12,13,15,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,16
 getChinesePostmanRoute(15) :15,13,12,8,12,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,15
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(1) :not available
@@ -12217,6 +12777,9 @@ getChinesePostmanCost() 212
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(1,0) :2
 numEdges(0,1) :2
 
@@ -12380,6 +12943,10 @@ getChinesePostmanRoute(12) :12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,
 getChinesePostmanRoute(13) :13,12,8,12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13
 getChinesePostmanRoute(16) :16,13,12,8,12,13,15,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,16
 getChinesePostmanRoute(15) :15,13,12,8,12,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,15
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(1) :not available
@@ -12547,6 +13114,9 @@ getChinesePostmanCost() 212
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(1,0) :2
 numEdges(0,1) :2
 
@@ -12710,6 +13280,10 @@ getChinesePostmanRoute(12) :12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,
 getChinesePostmanRoute(13) :13,12,8,12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13
 getChinesePostmanRoute(16) :16,13,12,8,12,13,15,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,16
 getChinesePostmanRoute(15) :15,13,12,8,12,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,15
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(1) :not available
@@ -12878,6 +13452,9 @@ getChinesePostmanCost() 212
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(1,0) :2
 numEdges(0,1) :2
 
@@ -13041,6 +13618,10 @@ getChinesePostmanRoute(12) :12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,
 getChinesePostmanRoute(13) :13,12,8,12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13
 getChinesePostmanRoute(16) :16,13,12,8,12,13,15,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,16
 getChinesePostmanRoute(15) :15,13,12,8,12,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,15
+
+END POSTMAN!!!
+====================================================================
+====================================================================
 
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(1) :not available
@@ -13207,6 +13788,9 @@ getChinesePostmanCost() 212
 
 This isn't chinese postman graph, generate one and test it
 getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
 numEdges(1,0) :2
 numEdges(0,1) :2
 
@@ -13371,6 +13955,10 @@ getChinesePostmanRoute(13) :13,12,8,12,13,15,13,16,13,17,3,10,3,2,0,1,0,14,0,7,1
 getChinesePostmanRoute(16) :16,13,12,8,12,13,15,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,16
 getChinesePostmanRoute(15) :15,13,12,8,12,13,16,13,17,3,10,3,2,0,1,0,14,0,7,11,14,11,7,14,7,0,2,1,2,5,4,1,4,5,2,3,6,9,10,9,6,3,17,13,15
 
+END POSTMAN!!!
+====================================================================
+====================================================================
+
 getChinesePostmanRoute(0) :not available
 getChinesePostmanRoute(1) :not available
 getChinesePostmanRoute(2) :not available
@@ -13389,6 +13977,363 @@ getChinesePostmanRoute(12) :not available
 getChinesePostmanRoute(13) :not available
 getChinesePostmanRoute(16) :not available
 getChinesePostmanRoute(15) :not available
+
+====================================================================
+====================================================================
+====================================================================
+
+
+
+TESTING ./files/tiny.txt!!!!!
+====================================================================
+====================================================================
+====================================================================
+numEdges(A,v0
+changeLabel(Horses,Bananas) :false
+numEdges(B,A) :1
+numEdges(A,B) :1
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :1
+getDegree(B) :1
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() A,B
+
+getChinesePostmanCost() 2
+
+This isn't chinese postman graph, generate one and test it
+getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
+numEdges(B,A) :2
+numEdges(A,B) :2
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :2
+getDegree(B) :2
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() 
+
+getChinesePostmanCost() 2
+
+This already is chinese postman - don't generate again. 
+getChinesePostmanRoute(A) :A,B,A
+getChinesePostmanRoute(B) :B,A,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
+
+getChinesePostmanRoute(A) :not available
+getChinesePostmanRoute(B) :not available
+
+Reconstruct graph to same: true
+changeLabel(A,Horses) :true
+numEdges(B,A) :0
+numEdges(A,B) :0
+
+getPath(B,A) :
+getPath(A,B) :
+
+getDegree(A) :0
+getDegree(B) :1
+
+depthFirstTraversal(A) :
+depthFirstTraversal(B) :B,Horses
+
+getOdd() B,Horses
+
+getChinesePostmanCost() 2
+
+This isn't chinese postman graph, generate one and test it
+getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
+numEdges(B,A) :0
+numEdges(A,B) :0
+
+getPath(B,A) :
+getPath(A,B) :
+
+getDegree(A) :0
+getDegree(B) :2
+
+depthFirstTraversal(A) :
+depthFirstTraversal(B) :B,Horses
+
+getOdd() 
+
+getChinesePostmanCost() 2
+
+This already is chinese postman - don't generate again. 
+getChinesePostmanRoute(A) :
+getChinesePostmanRoute(B) :B,Horses,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
+
+getChinesePostmanRoute(A) :not available
+getChinesePostmanRoute(B) :not available
+
+Reconstruct graph to same: true
+changeLabel(Bananas,A) :false
+numEdges(B,A) :1
+numEdges(A,B) :1
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :1
+getDegree(B) :1
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() A,B
+
+getChinesePostmanCost() 2
+
+This isn't chinese postman graph, generate one and test it
+getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
+numEdges(B,A) :2
+numEdges(A,B) :2
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :2
+getDegree(B) :2
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() 
+
+getChinesePostmanCost() 2
+
+This already is chinese postman - don't generate again. 
+getChinesePostmanRoute(A) :A,B,A
+getChinesePostmanRoute(B) :B,A,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
+
+getChinesePostmanRoute(A) :not available
+getChinesePostmanRoute(B) :not available
+
+Reconstruct graph to same: true
+changeLabel(A,A) :false
+numEdges(B,A) :1
+numEdges(A,B) :1
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :1
+getDegree(B) :1
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() A,B
+
+getChinesePostmanCost() 2
+
+This isn't chinese postman graph, generate one and test it
+getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
+numEdges(B,A) :2
+numEdges(A,B) :2
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :2
+getDegree(B) :2
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() 
+
+getChinesePostmanCost() 2
+
+This already is chinese postman - don't generate again. 
+getChinesePostmanRoute(A) :A,B,A
+getChinesePostmanRoute(B) :B,A,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
+
+getChinesePostmanRoute(A) :not available
+getChinesePostmanRoute(B) :not available
+
+clone() and test:
+numEdges(B,A) :1
+numEdges(A,B) :1
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :1
+getDegree(B) :1
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() A,B
+
+getChinesePostmanCost() 2
+
+This isn't chinese postman graph, generate one and test it
+getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
+numEdges(B,A) :2
+numEdges(A,B) :2
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :2
+getDegree(B) :2
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() 
+
+getChinesePostmanCost() 2
+
+This already is chinese postman - don't generate again. 
+getChinesePostmanRoute(A) :A,B,A
+getChinesePostmanRoute(B) :B,A,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
+
+getChinesePostmanRoute(A) :not available
+getChinesePostmanRoute(B) :not available
+
+
+clone.changeLabel(A,A) :false
+numEdges(B,A) :1
+numEdges(A,B) :1
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :1
+getDegree(B) :1
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() A,B
+
+getChinesePostmanCost() 2
+
+This isn't chinese postman graph, generate one and test it
+getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
+numEdges(B,A) :2
+numEdges(A,B) :2
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :2
+getDegree(B) :2
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() 
+
+getChinesePostmanCost() 2
+
+This already is chinese postman - don't generate again. 
+getChinesePostmanRoute(A) :A,B,A
+getChinesePostmanRoute(B) :B,A,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
+
+getChinesePostmanRoute(A) :not available
+getChinesePostmanRoute(B) :not available
+
+numEdges(B,A) :1
+numEdges(A,B) :1
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :1
+getDegree(B) :1
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() A,B
+
+getChinesePostmanCost() 2
+
+This isn't chinese postman graph, generate one and test it
+getChinesePostmanGraph() == moreTests
+POSTMAN!!!
+====================================================================
+====================================================================
+numEdges(B,A) :2
+numEdges(A,B) :2
+
+getPath(B,A) :B,A
+getPath(A,B) :A,B
+
+getDegree(A) :2
+getDegree(B) :2
+
+depthFirstTraversal(A) :A,B
+depthFirstTraversal(B) :B,A
+
+getOdd() 
+
+getChinesePostmanCost() 2
+
+This already is chinese postman - don't generate again. 
+getChinesePostmanRoute(A) :A,B,A
+getChinesePostmanRoute(B) :B,A,B
+
+END POSTMAN!!!
+====================================================================
+====================================================================
+
+getChinesePostmanRoute(A) :not available
+getChinesePostmanRoute(B) :not available
 
 ====================================================================
 ====================================================================
