@@ -27,7 +27,7 @@ public class Tester {
 
         int option = 0;
 
-        if (args.length == 1) {
+        if (args.length == 0) {
             System.out.println("Usage: java Tester [tiny|small|full]");
             System.out.println("tiny - only tests chinesePostmanRoute()");
             System.out.println("small - only tests some things");
@@ -38,9 +38,9 @@ public class Tester {
             return;
         }
         else {
-            if (args[1].compareTo("small") == 0)
+            if (args[0].compareTo("small") == 0)
                 option = 1;
-            else if (args[1].compareTo("full") == 0)
+            else if (args[0].compareTo("full") == 0)
                 option = 2;
             else
                 option = 0;
