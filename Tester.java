@@ -28,7 +28,7 @@ public class Tester {
         String[] graphFiles = null;
         int j = -1;
         try {
-            graphFiles = new String[] {"graph.txt", "graph2.txt", "moh.txt", "m3h.txt", "m3h1.txt", "nikolaus.txt", "pg409DFS.txt", "small.txt", "suffolk.txt", "traversableSimple.txt", "nonTraversableSimple.txt", "large.txt"};
+            graphFiles = new String[] {"graph.txt", "graph2.txt", "moh.txt", "m3h.txt", "m3h1.txt", "nikolaus.txt", "pg409DFS.txt", "small.txt", "suffolk.txt", "traversableSimple.txt", "nonTraversableSimple.txt", "large.txt", "tiny.txt"};
 
             for(int i = 0; i < graphFiles.length; ++i) {
                 graphFiles[i] = "./files/" + graphFiles[i];
