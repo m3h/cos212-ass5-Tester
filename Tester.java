@@ -25,7 +25,7 @@ public class Tester {
     */
     public static void main(String[] args) throws Exception {
 
-        int option;
+        int option = 0;
 
         if (args.length == 1) {
             System.out.println("Usage: java Tester [tiny|small|full]");
@@ -34,14 +34,16 @@ public class Tester {
             System.out.println("full - tests many combinations of everything - WARNING: produces a lot of output");
 
             System.out.println("\n\nE.g. java Tester tiny > out.txt");
+
+            return;
         }
         else {
-            if (args[1].compareTo("tiny") == 0)
-                option = 0;
-            else if (args[1].compareTo("small") == 0)
+            if (args[1].compareTo("small") == 0)
                 option = 1;
-            else
+            else if (args[1].compareTo("full") == 0)
                 option = 2;
+            else
+                option = 0;
         }
         String[] graphFiles = null;
         int j = -1;
