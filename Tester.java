@@ -170,24 +170,36 @@ public class Tester {
         }
 
        for(int i = 1; i < vertices.length; ++i) {
-           System.out.println("numEdges(" + vertices[i] + "," + vertices[i - 1] + ") :" + graph.numEdges(vertices[i], vertices[i - 1]));
-           System.out.println("numEdges(" + vertices[i - 1] + "," + vertices[i] + ") :" + graph.numEdges(vertices[i - 1], vertices[i]));
+           System.out.println("numEdges(" + vertices[i] + "," + vertices[i - 1] + ") :\t" + graph.numEdges(vertices[i], vertices[i - 1]));
+           System.out.println("numEdges(" + vertices[i - 1] + "," + vertices[i] + ") :\t" + graph.numEdges(vertices[i - 1], vertices[i]));
            System.out.println();
        }
 
        for(int i = 1; i < vertices.length; ++i) {
-           System.out.println("getPath(" + vertices[i] + "," + vertices[i-1] + ") :" + graph.getPath(vertices[i], vertices[i-1]));
-           System.out.println("getPath(" + vertices[i-1] + "," + vertices[i] + ") :" + graph.getPath(vertices[i-1], vertices[i]));
+           System.out.println("getPath(" + vertices[i] + "," + vertices[i-1] + ") :\t" + graph.getPath(vertices[i], vertices[i-1]));
+           System.out.println("getPath(" + vertices[i-1] + "," + vertices[i] + ") :\t" + graph.getPath(vertices[i-1], vertices[i]));
            System.out.println();
        }
 
        for(int i = 0; i < vertices.length; ++i) {
-           System.out.println("getDegree(" + vertices[i] + ") :" + graph.getDegree(vertices[i]));
+            for(int j = 0; j < vertices.length; ++j) {
+                System.out.println("numEdges(" + vertices[i] + "," + vertices[j] + ") :\t" + graph.numEdges(vertices[i], vertices[j]));
+            }
+       }
+
+        for(int i = 0; i < vertices.length; ++i) {
+            for(int j = 0; j < vertices.length; ++j) {
+                System.out.println("getPath(" + vertices[i] + "," + vertices[j] + ") :\t" + graph.getPath(vertices[i], vertices[j]));
+            }
+        }
+
+       for(int i = 0; i < vertices.length; ++i) {
+           System.out.println("getDegree(" + vertices[i] + ") :\t" + graph.getDegree(vertices[i]));
        }
        System.out.println();
 
        for(int i = 0; i < vertices.length; ++i) {
-           System.out.println("depthFirstTraversal(" + vertices[i] + ") :" + graph.depthFirstTraversal(vertices[i]));
+           System.out.println("depthFirstTraversal(" + vertices[i] + ") :\t" + graph.depthFirstTraversal(vertices[i]));
        }
        System.out.println();
 
@@ -208,7 +220,7 @@ public class Tester {
        }
 
         for(int i = 0; i < vertices.length; ++i) {
-            System.out.println("getChinesePostmanRoute(" + vertices[i] + ") :" + graph.getChinesePostmanRoute(vertices[i]));
+            System.out.println("getChinesePostmanRoute(" + vertices[i] + ") :\t" + graph.getChinesePostmanRoute(vertices[i]));
         }
         System.out.println();
 
