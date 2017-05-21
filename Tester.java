@@ -25,6 +25,8 @@ public class Tester {
     */
     public static void main(String[] args) throws Exception {
 
+        int option;
+
         if (args.length == 1) {
             System.out.println("Usage: java Tester [tiny|small|full]");
             System.out.println("tiny - only tests chinesePostmanRoute()");
@@ -34,7 +36,12 @@ public class Tester {
             System.out.println("\n\nE.g. java Tester tiny > out.txt");
         }
         else {
-
+            if (args[1].compareTo("tiny") == 0)
+                option = 0;
+            else if (args[1].compareTo("small") == 0)
+                option = 1;
+            else
+                option = 2;
         }
         String[] graphFiles = null;
         int j = -1;
@@ -67,7 +74,7 @@ public class Tester {
             }
 
             for(j = 0; j < graphFiles.length; ++j) {
-                testGraph(graphFiles[j], u[j], v[j], vertices[j]);
+                testGraph(graphFiles[j], u[j], v[j], vertices[j], option);
             }
 
 
