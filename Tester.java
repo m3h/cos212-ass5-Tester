@@ -175,7 +175,7 @@ public class Tester {
         }
         else {
             for(int i = 0; i < vertices.length; ++i) {
-                System.out.prinln("chinesePostmanRoute(" + vertices[i] + "):\t" + graph.getChinesePostmanGraph().getChinesePostmanRoute(vertices[i]));
+                System.out.println("chinesePostmanRoute(" + vertices[i] + "):\t" + graph.getChinesePostmanGraph().getChinesePostmanRoute(vertices[i]));
             }
         }
 
