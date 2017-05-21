@@ -29,6 +29,11 @@ public class Tester {
         int j = -1;
         try {
             graphFiles = new String[] {"graph.txt", "graph2.txt", "moh.txt", "m3h.txt", "m3h1.txt", "nikolaus.txt", "pg409DFS.txt", "small.txt", "suffolk.txt", "traversableSimple.txt", "nonTraversableSimple.txt", "large.txt"};
+
+            for(int i = 0; i < graphFiles.length; ++i) {
+                graphFiles[i] = "./files/" + graphFiles[i];
+            }
+
             String[][] vertices = new String[graphFiles.length][];
             for (int i = 0; i < vertices.length; ++i)
                 vertices[i] = getVertices(graphFiles[i]);
