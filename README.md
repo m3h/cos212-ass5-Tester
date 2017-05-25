@@ -15,6 +15,7 @@ diff output.txt expectedOutput.txt
 
 this should show you if there's a difference... good luck finding why
 
+The given outputs are produced by running my Graph.java implementation against the Tester. My Graph implementation got 97/97
 
 # Assumptions
 To make this work more easily, I assumed your functions could gracefully handle being called with non-existant vertices. You
