@@ -1674,17 +1674,17 @@ TESTING ./files/large.txt!!!!!
 ====================================================================
 numEdges(2,14):	0
 changeLabel(Horses,Bananas) :false
-numEdges(1,0) :	2
-numEdges(0,1) :	2
+numEdges(1,0) :	1
+numEdges(0,1) :	1
 
-numEdges(2,1) :	2
-numEdges(1,2) :	2
+numEdges(2,1) :	1
+numEdges(1,2) :	1
 
 numEdges(7,2) :	0
 numEdges(2,7) :	0
 
-numEdges(14,7) :	2
-numEdges(7,14) :	2
+numEdges(14,7) :	1
+numEdges(7,14) :	1
 
 numEdges(4,14) :	0
 numEdges(14,4) :	0
@@ -1713,11 +1713,11 @@ numEdges(9,11) :	0
 numEdges(8,11) :	0
 numEdges(11,8) :	0
 
-numEdges(12,8) :	2
-numEdges(8,12) :	2
+numEdges(12,8) :	1
+numEdges(8,12) :	1
 
-numEdges(13,12) :	2
-numEdges(12,13) :	2
+numEdges(13,12) :	1
+numEdges(12,13) :	1
 
 numEdges(16,13) :	1
 numEdges(13,16) :	1
@@ -1728,8 +1728,8 @@ numEdges(16,15) :	0
 getPath(1,0) :	1,0
 getPath(0,1) :	0,1
 
-getPath(2,1) :	2,1
-getPath(1,2) :	1,2
+getPath(2,1) :	2,0,1
+getPath(1,2) :	1,0,2
 
 getPath(7,2) :	7,0,2
 getPath(2,7) :	2,0,7
@@ -1749,20 +1749,20 @@ getPath(3,5) :	3,2,5
 getPath(6,5) :	6,3,2,5
 getPath(5,6) :	5,2,3,6
 
-getPath(10,6) :	10,3,6
-getPath(6,10) :	6,3,10
+getPath(10,6) :	10,9,6
+getPath(6,10) :	6,9,10
 
-getPath(17,10) :	17,3,10
-getPath(10,17) :	10,3,17
+getPath(17,10) :	17,3,6,9,10
+getPath(10,17) :	10,9,6,3,17
 
-getPath(9,17) :	9,10,3,17
-getPath(17,9) :	17,3,10,9
+getPath(9,17) :	9,6,3,17
+getPath(17,9) :	17,3,6,9
 
-getPath(11,9) :	11,7,0,2,3,10,9
-getPath(9,11) :	9,10,3,2,0,7,11
+getPath(11,9) :	11,14,0,2,3,6,9
+getPath(9,11) :	9,6,3,2,0,14,11
 
-getPath(8,11) :	8,12,13,17,3,2,0,7,11
-getPath(11,8) :	11,7,0,2,3,17,13,12,8
+getPath(8,11) :	8,13,17,3,2,0,14,11
+getPath(11,8) :	11,14,0,2,3,17,13,8
 
 getPath(12,8) :	12,8
 getPath(8,12) :	8,12
@@ -1776,47 +1776,47 @@ getPath(13,16) :	13,16
 getPath(15,16) :	15,13,16
 getPath(16,15) :	16,13,15
 
-getDegree(0) :	8
-getDegree(1) :	6
-getDegree(2) :	8
-getDegree(7) :	6
-getDegree(14) :	6
-getDegree(4) :	4
-getDegree(3) :	7
-getDegree(5) :	4
-getDegree(6) :	4
-getDegree(10) :	4
+getDegree(0) :	4
+getDegree(1) :	3
+getDegree(2) :	4
+getDegree(7) :	3
+getDegree(14) :	3
+getDegree(4) :	2
+getDegree(3) :	4
+getDegree(5) :	2
+getDegree(6) :	2
+getDegree(10) :	2
 getDegree(17) :	2
-getDegree(9) :	4
-getDegree(11) :	4
-getDegree(8) :	2
+getDegree(9) :	2
+getDegree(11) :	2
+getDegree(8) :	3
 getDegree(12) :	4
 getDegree(13) :	5
-getDegree(16) :	1
-getDegree(15) :	1
+getDegree(16) :	3
+getDegree(15) :	2
 
-depthFirstTraversal(0) :	0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,14,11,7
-depthFirstTraversal(1) :	1,0,14,11,7,2,3,10,9,6,17,13,12,8,15,16,5,4
-depthFirstTraversal(2) :	2,0,1,4,5,14,11,7,3,10,9,6,17,13,12,8,15,16
-depthFirstTraversal(7) :	7,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,14,11
-depthFirstTraversal(14) :	14,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,7,11
-depthFirstTraversal(4) :	4,1,0,14,11,7,2,3,10,9,6,17,13,12,8,15,16,5
-depthFirstTraversal(3) :	3,10,9,6,17,13,12,8,15,16,2,0,1,4,5,14,11,7
-depthFirstTraversal(5) :	5,2,0,1,4,14,11,7,3,10,9,6,17,13,12,8,15,16
-depthFirstTraversal(6) :	6,3,10,9,17,13,12,8,15,16,2,0,1,4,5,14,11,7
-depthFirstTraversal(10) :	10,3,17,13,12,8,15,16,2,0,1,4,5,14,11,7,6,9
-depthFirstTraversal(17) :	17,13,12,8,15,16,3,10,9,6,2,0,1,4,5,14,11,7
-depthFirstTraversal(9) :	9,10,3,17,13,12,8,15,16,2,0,1,4,5,14,11,7,6
-depthFirstTraversal(11) :	11,14,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,7
+depthFirstTraversal(0) :	0,1,2,3,10,9,6,17,13,12,15,16,8,5,4,14,11,7
+depthFirstTraversal(1) :	1,0,14,11,7,2,3,10,9,6,17,13,12,15,16,8,5,4
+depthFirstTraversal(2) :	2,0,1,4,5,14,11,7,3,10,9,6,17,13,12,15,16,8
+depthFirstTraversal(7) :	7,0,1,2,3,10,9,6,17,13,12,15,16,8,5,4,14,11
+depthFirstTraversal(14) :	14,0,1,2,3,10,9,6,17,13,12,15,16,8,5,4,7,11
+depthFirstTraversal(4) :	4,1,0,14,11,7,2,3,10,9,6,17,13,12,15,16,8,5
+depthFirstTraversal(3) :	3,10,9,6,17,13,12,15,16,8,2,0,1,4,5,14,11,7
+depthFirstTraversal(5) :	5,2,0,1,4,14,11,7,3,10,9,6,17,13,12,15,16,8
+depthFirstTraversal(6) :	6,3,10,9,17,13,12,15,16,8,2,0,1,4,5,14,11,7
+depthFirstTraversal(10) :	10,3,17,13,12,15,16,8,2,0,1,4,5,14,11,7,6,9
+depthFirstTraversal(17) :	17,13,12,15,16,8,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(9) :	9,10,3,17,13,12,15,16,8,2,0,1,4,5,14,11,7,6
+depthFirstTraversal(11) :	11,14,0,1,2,3,10,9,6,17,13,12,15,16,8,5,4,7
 depthFirstTraversal(8) :	8,12,13,15,16,17,3,10,9,6,2,0,1,4,5,14,11,7
-depthFirstTraversal(12) :	12,13,15,16,17,3,10,9,6,2,0,1,4,5,14,11,7,8
-depthFirstTraversal(13) :	13,12,8,15,16,17,3,10,9,6,2,0,1,4,5,14,11,7
-depthFirstTraversal(16) :	16,13,12,8,15,17,3,10,9,6,2,0,1,4,5,14,11,7
-depthFirstTraversal(15) :	15,13,12,8,16,17,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(12) :	12,13,15,16,8,17,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(13) :	13,12,15,16,8,17,3,10,9,6,2,0,1,4,5,14,11,7
+depthFirstTraversal(16) :	16,12,13,15,17,3,10,9,6,2,0,1,4,5,14,11,7,8
+depthFirstTraversal(15) :	15,12,13,16,8,17,3,10,9,6,2,0,1,4,5,14,11,7
 
-getOdd() 13,15,16,3
+getOdd() 1,13,14,16,7,8
 
-getChinesePostmanCost() 212
+getChinesePostmanCost() 220
 
 getChinesePostmanRoute(0) :	not available
 getChinesePostmanRoute(1) :	not available
@@ -1839,11 +1839,11 @@ getChinesePostmanRoute(15) :	not available
 
 Reconstruct graph to same: true
 changeLabel(14,Horses) :true
-numEdges(1,0) :	2
-numEdges(0,1) :	2
+numEdges(1,0) :	1
+numEdges(0,1) :	1
 
-numEdges(2,1) :	2
-numEdges(1,2) :	2
+numEdges(2,1) :	1
+numEdges(1,2) :	1
 
 numEdges(7,2) :	0
 numEdges(2,7) :	0
@@ -1878,11 +1878,11 @@ numEdges(9,11) :	0
 numEdges(8,11) :	0
 numEdges(11,8) :	0
 
-numEdges(12,8) :	2
-numEdges(8,12) :	2
+numEdges(12,8) :	1
+numEdges(8,12) :	1
 
-numEdges(13,12) :	2
-numEdges(12,13) :	2
+numEdges(13,12) :	1
+numEdges(12,13) :	1
 
 numEdges(16,13) :	1
 numEdges(13,16) :	1
@@ -1893,8 +1893,8 @@ numEdges(16,15) :	0
 getPath(1,0) :	1,0
 getPath(0,1) :	0,1
 
-getPath(2,1) :	2,1
-getPath(1,2) :	1,2
+getPath(2,1) :	2,0,1
+getPath(1,2) :	1,0,2
 
 getPath(7,2) :	7,0,2
 getPath(2,7) :	2,0,7
@@ -1914,20 +1914,20 @@ getPath(3,5) :	3,2,5
 getPath(6,5) :	6,3,2,5
 getPath(5,6) :	5,2,3,6
 
-getPath(10,6) :	10,3,6
-getPath(6,10) :	6,3,10
+getPath(10,6) :	10,9,6
+getPath(6,10) :	6,9,10
 
-getPath(17,10) :	17,3,10
-getPath(10,17) :	10,3,17
+getPath(17,10) :	17,3,6,9,10
+getPath(10,17) :	10,9,6,3,17
 
-getPath(9,17) :	9,10,3,17
-getPath(17,9) :	17,3,10,9
+getPath(9,17) :	9,6,3,17
+getPath(17,9) :	17,3,6,9
 
-getPath(11,9) :	11,7,0,2,3,10,9
-getPath(9,11) :	9,10,3,2,0,7,11
+getPath(11,9) :	11,7,0,2,3,6,9
+getPath(9,11) :	9,6,3,2,0,7,11
 
-getPath(8,11) :	8,12,13,17,3,2,0,7,11
-getPath(11,8) :	11,7,0,2,3,17,13,12,8
+getPath(8,11) :	8,13,17,3,2,0,7,11
+getPath(11,8) :	11,7,0,2,3,17,13,8
 
 getPath(12,8) :	12,8
 getPath(8,12) :	8,12
@@ -1941,47 +1941,47 @@ getPath(13,16) :	13,16
 getPath(15,16) :	15,13,16
 getPath(16,15) :	16,13,15
 
-getDegree(0) :	8
-getDegree(1) :	6
-getDegree(2) :	8
-getDegree(7) :	6
+getDegree(0) :	4
+getDegree(1) :	3
+getDegree(2) :	4
+getDegree(7) :	3
 getDegree(14) :	0
-getDegree(4) :	4
-getDegree(3) :	7
-getDegree(5) :	4
-getDegree(6) :	4
-getDegree(10) :	4
+getDegree(4) :	2
+getDegree(3) :	4
+getDegree(5) :	2
+getDegree(6) :	2
+getDegree(10) :	2
 getDegree(17) :	2
-getDegree(9) :	4
-getDegree(11) :	4
-getDegree(8) :	2
+getDegree(9) :	2
+getDegree(11) :	2
+getDegree(8) :	3
 getDegree(12) :	4
 getDegree(13) :	5
-getDegree(16) :	1
-getDegree(15) :	1
+getDegree(16) :	3
+getDegree(15) :	2
 
-depthFirstTraversal(0) :	0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,7,11,Horses
-depthFirstTraversal(1) :	1,0,2,3,10,9,6,17,13,12,8,15,16,5,4,7,11,Horses
-depthFirstTraversal(2) :	2,0,1,4,5,7,11,Horses,3,10,9,6,17,13,12,8,15,16
-depthFirstTraversal(7) :	7,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,Horses,11
+depthFirstTraversal(0) :	0,1,2,3,10,9,6,17,13,12,15,16,8,5,4,7,11,Horses
+depthFirstTraversal(1) :	1,0,2,3,10,9,6,17,13,12,15,16,8,5,4,7,11,Horses
+depthFirstTraversal(2) :	2,0,1,4,5,7,11,Horses,3,10,9,6,17,13,12,15,16,8
+depthFirstTraversal(7) :	7,0,1,2,3,10,9,6,17,13,12,15,16,8,5,4,Horses,11
 depthFirstTraversal(14) :	
-depthFirstTraversal(4) :	4,1,0,2,3,10,9,6,17,13,12,8,15,16,5,7,11,Horses
-depthFirstTraversal(3) :	3,10,9,6,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses
-depthFirstTraversal(5) :	5,2,0,1,4,7,11,Horses,3,10,9,6,17,13,12,8,15,16
-depthFirstTraversal(6) :	6,3,10,9,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses
-depthFirstTraversal(10) :	10,3,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses,6,9
-depthFirstTraversal(17) :	17,13,12,8,15,16,3,10,9,6,2,0,1,4,5,7,11,Horses
-depthFirstTraversal(9) :	9,10,3,17,13,12,8,15,16,2,0,1,4,5,7,11,Horses,6
-depthFirstTraversal(11) :	11,7,0,1,2,3,10,9,6,17,13,12,8,15,16,5,4,Horses
+depthFirstTraversal(4) :	4,1,0,2,3,10,9,6,17,13,12,15,16,8,5,7,11,Horses
+depthFirstTraversal(3) :	3,10,9,6,17,13,12,15,16,8,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(5) :	5,2,0,1,4,7,11,Horses,3,10,9,6,17,13,12,15,16,8
+depthFirstTraversal(6) :	6,3,10,9,17,13,12,15,16,8,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(10) :	10,3,17,13,12,15,16,8,2,0,1,4,5,7,11,Horses,6,9
+depthFirstTraversal(17) :	17,13,12,15,16,8,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(9) :	9,10,3,17,13,12,15,16,8,2,0,1,4,5,7,11,Horses,6
+depthFirstTraversal(11) :	11,7,0,1,2,3,10,9,6,17,13,12,15,16,8,5,4,Horses
 depthFirstTraversal(8) :	8,12,13,15,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses
-depthFirstTraversal(12) :	12,13,15,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses,8
-depthFirstTraversal(13) :	13,12,8,15,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses
-depthFirstTraversal(16) :	16,13,12,8,15,17,3,10,9,6,2,0,1,4,5,7,11,Horses
-depthFirstTraversal(15) :	15,13,12,8,16,17,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(12) :	12,13,15,16,8,17,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(13) :	13,12,15,16,8,17,3,10,9,6,2,0,1,4,5,7,11,Horses
+depthFirstTraversal(16) :	16,12,13,15,17,3,10,9,6,2,0,1,4,5,7,11,Horses,8
+depthFirstTraversal(15) :	15,12,13,16,8,17,3,10,9,6,2,0,1,4,5,7,11,Horses
 
-getOdd() 13,15,16,3
+getOdd() 1,13,16,7,8,Horses
 
-getChinesePostmanCost() 212
+getChinesePostmanCost() 220
 
 getChinesePostmanRoute(0) :	not available
 getChinesePostmanRoute(1) :	not available
